@@ -1,11 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="" />
+    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="数据结构算法学习">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedtable/algorithm/DetectCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedtable/algorithm/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedtable/algorithm/RemoveElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedtable/algorithm/RemoveNthFromEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedtable/algorithm/ReverseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedtable/algorithm/SwapPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedtable/structure/LinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedtable/structure/TwoWayLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedtable/test/MyLinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedtable/test/SwapPairsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listtable/algorithm/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listtable/algorithm/DeleteElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listtable/algorithm/GenerateMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listtable/algorithm/MinSubArrayLen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listtable/algorithm/sortedSquares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listtable/structure/SequenceList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listtable/test/BinarySearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listtable/test/DeleteElementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listtable/test/GenerateMatrixTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listtable/test/MinSubArrayLenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queue/structure/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/structure/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2C7DHgIp92iG5JJz2A4NnZvay1O" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -17,16 +55,70 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/IdeaProjects/JavaBaseLearnItheima"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="HelloAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.HelloAlgorithm" />
+  <component name="RunManager" selected="Application.SwapPairsTest">
+    <configuration name="DeleteElementTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="listtable.test.DeleteElementTest" />
       <module name="algorithmstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.*" />
+          <option name="PATTERN" value="listtable.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenerateMatrixTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="listtable.test.GenerateMatrixTest" />
+      <module name="algorithmstudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="listtable.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinSubArrayLenTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="listtable.test.MinSubArrayLenTest" />
+      <module name="algorithmstudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="listtable.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyLinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedtable.test.MyLinkedListTest" />
+      <module name="algorithmstudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedtable.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwapPairsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedtable.test.SwapPairsTest" />
+      <module name="algorithmstudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedtable.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -36,7 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloAlgorithm" />
+        <item itemvalue="Application.SwapPairsTest" />
+        <item itemvalue="Application.MyLinkedListTest" />
+        <item itemvalue="Application.GenerateMatrixTest" />
+        <item itemvalue="Application.MinSubArrayLenTest" />
+        <item itemvalue="Application.DeleteElementTest" />
       </list>
     </recent_temporary>
   </component>
@@ -48,7 +144,60 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658144644302</updated>
+      <workItem from="1658144645792" duration="280000" />
+      <workItem from="1658144935477" duration="22000" />
+      <workItem from="1662077926529" duration="34000" />
+      <workItem from="1664632638834" duration="2477000" />
+      <workItem from="1665367573167" duration="676000" />
+      <workItem from="1665369728587" duration="67135000" />
     </task>
+    <task id="LOCAL-00001" summary="数据结构算法学习">
+      <created>1658144781737</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658144781737</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="数据结构算法学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据结构算法学习" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/algorithm/FullPermutation.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/listtable/test/GenerateMatrixTest.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedtable/test/SwapPairsTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
