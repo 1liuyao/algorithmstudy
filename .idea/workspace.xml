@@ -1,31 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="数据结构算法学习">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedtable/algorithm/DetectCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedtable/algorithm/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedtable/algorithm/RemoveElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedtable/algorithm/RemoveNthFromEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedtable/algorithm/ReverseList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedtable/algorithm/SwapPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedtable/structure/LinkList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedtable/structure/TwoWayLinkList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedtable/test/MyLinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedtable/test/SwapPairsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listtable/algorithm/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listtable/algorithm/DeleteElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listtable/algorithm/GenerateMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listtable/algorithm/MinSubArrayLen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listtable/algorithm/sortedSquares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listtable/structure/SequenceList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listtable/test/BinarySearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listtable/test/DeleteElementTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listtable/test/GenerateMatrixTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listtable/test/MinSubArrayLenTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/structure/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/structure/BinaryTree.java" afterDir="false" />
+    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="数组、单链表算法题">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queue/algorithm/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/algorithm/KMP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/algorithm/RepeatedSubstringPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/algorithm/ReverseStr2k.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/algorithm/ReverseWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/test/KMPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/test/RepeatedSubstringPatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/test/ReverseStr2kTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/test/ReverseWordsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithmstudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmstudy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/algorithm/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/algorithm/ReverseString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -60,13 +52,13 @@
     "last_opened_file_path": "D:/IdeaProjects/JavaBaseLearnItheima"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SwapPairsTest">
-    <configuration name="DeleteElementTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listtable.test.DeleteElementTest" />
+  <component name="RunManager" selected="Application.RepeatedSubstringPatternTest">
+    <configuration name="KMPTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.test.KMPTest" />
       <module name="algorithmstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="listtable.test.*" />
+          <option name="PATTERN" value="string.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenerateMatrixTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listtable.test.GenerateMatrixTest" />
+    <configuration name="RepeatedSubstringPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.test.RepeatedSubstringPatternTest" />
       <module name="algorithmstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="listtable.test.*" />
+          <option name="PATTERN" value="string.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinSubArrayLenTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listtable.test.MinSubArrayLenTest" />
+    <configuration name="ReverseStr2kTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.test.ReverseStr2kTest" />
       <module name="algorithmstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="listtable.test.*" />
+          <option name="PATTERN" value="string.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedtable.test.MyLinkedListTest" />
+    <configuration name="ReverseWordsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.test.ReverseWordsTest" />
       <module name="algorithmstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedtable.test.*" />
+          <option name="PATTERN" value="string.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RepeatedSubstringPatternTest" />
+        <item itemvalue="Application.KMPTest" />
+        <item itemvalue="Application.ReverseWordsTest" />
+        <item itemvalue="Application.ReverseStr2kTest" />
         <item itemvalue="Application.SwapPairsTest" />
-        <item itemvalue="Application.MyLinkedListTest" />
-        <item itemvalue="Application.GenerateMatrixTest" />
-        <item itemvalue="Application.MinSubArrayLenTest" />
-        <item itemvalue="Application.DeleteElementTest" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +141,9 @@
       <workItem from="1662077926529" duration="34000" />
       <workItem from="1664632638834" duration="2477000" />
       <workItem from="1665367573167" duration="676000" />
-      <workItem from="1665369728587" duration="67135000" />
+      <workItem from="1665369728587" duration="72988000" />
+      <workItem from="1665716444955" duration="242000" />
+      <workItem from="1665717187106" duration="37186000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构算法学习">
       <created>1658144781737</created>
@@ -158,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658144781737</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="数组、单链表算法题">
+      <created>1665668762330</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665668762330</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +178,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="数据结构算法学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据结构算法学习" />
+    <MESSAGE value="数组、单链表算法题" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组、单链表算法题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -196,6 +198,11 @@
           <url>file://$PROJECT_DIR$/src/linkedtable/test/SwapPairsTest.java</url>
           <line>14</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/algorithm/RepeatedSubstringPattern.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
