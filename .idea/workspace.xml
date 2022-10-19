@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="数组、单链表算法题">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/algorithm/MyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/algorithm/KMP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/algorithm/RepeatedSubstringPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/algorithm/ReverseStr2k.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/algorithm/ReverseWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/test/KMPTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/test/RepeatedSubstringPatternTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/test/ReverseStr2kTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/test/ReverseWordsTest.java" afterDir="false" />
+    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="String算法">
+      <change afterPath="$PROJECT_DIR$/src/backtrack/algorithm/CombinationSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtrack/algorithm/CombinationSum3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtrack/algorithm/Combine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtrack/algorithm/LetterCombinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtrack/algorithm/Partition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtrack/test/CombinationSumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtrack/test/CombineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtrack/test/LetterCombinationsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmstudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmstudy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/algorithm/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/algorithm/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack/algorithm/FullPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtrack/algorithm/FullPermutation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +47,52 @@
     "last_opened_file_path": "D:/IdeaProjects/JavaBaseLearnItheima"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RepeatedSubstringPatternTest">
+  <component name="RunManager" selected="Application.CombinationSumTest">
+    <configuration name="CombinationSumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtrack.test.CombinationSumTest" />
+      <module name="algorithmstudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backtrack.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CombineTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtrack.test.CombineTest" />
+      <module name="algorithmstudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backtrack.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KMPTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.test.KMPTest" />
       <module name="algorithmstudy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="string.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LetterCombinationsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtrack.test.LetterCombinationsTest" />
+      <module name="algorithmstudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backtrack.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,52 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseStr2kTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.test.ReverseStr2kTest" />
-      <module name="algorithmstudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseWordsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.test.ReverseWordsTest" />
-      <module name="algorithmstudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SwapPairsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedtable.test.SwapPairsTest" />
-      <module name="algorithmstudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedtable.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CombinationSumTest" />
+        <item itemvalue="Application.LetterCombinationsTest" />
+        <item itemvalue="Application.CombineTest" />
         <item itemvalue="Application.RepeatedSubstringPatternTest" />
         <item itemvalue="Application.KMPTest" />
-        <item itemvalue="Application.ReverseWordsTest" />
-        <item itemvalue="Application.ReverseStr2kTest" />
-        <item itemvalue="Application.SwapPairsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +138,7 @@
       <workItem from="1665367573167" duration="676000" />
       <workItem from="1665369728587" duration="72988000" />
       <workItem from="1665716444955" duration="242000" />
-      <workItem from="1665717187106" duration="37186000" />
+      <workItem from="1665717187106" duration="79367000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构算法学习">
       <created>1658144781737</created>
@@ -159,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665668762330</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="String算法">
+      <created>1665884062348</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665884062348</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,16 +181,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="数据结构算法学习" />
     <MESSAGE value="数组、单链表算法题" />
-    <option name="LAST_COMMIT_MESSAGE" value="数组、单链表算法题" />
+    <MESSAGE value="String算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="String算法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/stack/algorithm/FullPermutation.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/listtable/test/GenerateMatrixTest.java</url>
           <line>8</line>
@@ -203,6 +201,11 @@
           <url>file://$PROJECT_DIR$/src/string/algorithm/RepeatedSubstringPattern.java</url>
           <line>68</line>
           <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/backtrack/algorithm/CombinationSum.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="83" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,4 +1,4 @@
-package stack.algorithm;
+package backtrack.algorithm;
 
 public class FullPermutation {
 
