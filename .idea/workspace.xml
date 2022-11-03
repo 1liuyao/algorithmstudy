@@ -1,27 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="栈和队列">
-      <change afterPath="$PROJECT_DIR$/src/backtrack/algorithm/FindSubsequences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backtrack/algorithm/Permute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backtrack/algorithm/PermuteUnique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backtrack/algorithm/Subsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backtrack/algorithm/SubsetsWithDup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backtrack/test/FindSubsequencesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backtrack/test/SubsetsWithDupTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/baseproblem/MinCostClimbingStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/baseproblem/UniquePaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/CountNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/InvertTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/IsBalanced.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/IsSymmetric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/LevelOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/MaxDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/MinDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/TreeTravel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/TreeTravelStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/test/LevelOrderTest.java" afterDir="false" />
+    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="二叉树、回溯、递归">
+      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/BinaryTreePaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/BuildTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/ConstructMaximumBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/FindBottomLeftValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/HasPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/PathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/SumOfLeftLeaves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/test/BinaryTreePathsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/test/FindBottomLeftValueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/algorithm/CountNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/algorithm/CountNodes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +48,33 @@
     &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/spring-boot-study&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FindSubsequencesTest">
+  <component name="RunManager" selected="Application.FindBottomLeftValueTest">
+    <configuration name="BinaryTreePathsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.test.BinaryTreePathsTest" />
+      <module name="algorithmstudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindBottomLeftValueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.test.FindBottomLeftValueTest" />
+      <module name="algorithmstudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindSubsequencesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="backtrack.test.FindSubsequencesTest" />
       <module name="algorithmstudy" />
@@ -84,32 +101,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSlidingWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.test.MaxSlidingWindow" />
-      <module name="algorithmstudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stack.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxSlidingWindowTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.test.MaxSlidingWindowTest" />
-      <module name="algorithmstudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stack.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SubsetsWithDupTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="backtrack.test.SubsetsWithDupTest" />
       <module name="algorithmstudy" />
@@ -125,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindBottomLeftValueTest" />
+        <item itemvalue="Application.BinaryTreePathsTest" />
         <item itemvalue="Application.FindSubsequencesTest" />
         <item itemvalue="Application.LevelOrderTest" />
         <item itemvalue="Application.SubsetsWithDupTest" />
-        <item itemvalue="Application.MaxSlidingWindowTest" />
-        <item itemvalue="Application.MaxSlidingWindow" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +140,12 @@
       <workItem from="1665369728587" duration="72988000" />
       <workItem from="1665716444955" duration="242000" />
       <workItem from="1665717187106" duration="185716000" />
-      <workItem from="1666789458197" duration="35155000" />
+      <workItem from="1666789458197" duration="35980000" />
+      <workItem from="1667042942901" duration="7863000" />
+      <workItem from="1667094222027" duration="13221000" />
+      <workItem from="1667145835750" duration="88000" />
+      <workItem from="1667226868612" duration="6594000" />
+      <workItem from="1667442739929" duration="9862000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构算法学习">
       <created>1658144781737</created>
@@ -186,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666685614809</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="二叉树、回溯、递归">
+      <created>1666960489139</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666960489139</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +212,8 @@
     <MESSAGE value="String算法" />
     <MESSAGE value="回溯算法" />
     <MESSAGE value="栈和队列" />
-    <option name="LAST_COMMIT_MESSAGE" value="栈和队列" />
+    <MESSAGE value="二叉树、回溯、递归" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉树、回溯、递归" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -238,6 +242,11 @@
           <url>file://$PROJECT_DIR$/src/hashtable/algorithm/FourSum.java</url>
           <line>65</line>
           <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/algorithm/FindBottomLeftValue.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="91" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
