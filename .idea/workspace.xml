@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="二叉树、回溯、递归">
-      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/BinaryTreePaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/BuildTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/ConstructMaximumBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/FindBottomLeftValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/HasPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/PathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/SumOfLeftLeaves.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/test/BinaryTreePathsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/test/FindBottomLeftValueTest.java" afterDir="false" />
+    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="二叉树回溯过程 构建符合条件的二叉树">
+      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/DeleteNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/FindMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/GetMinimumDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/InsertIntoBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/IsValidBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/LowestCommonAncestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/LowestCommonAncestorSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/MergeTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/SortedArrayToBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/TrimBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/test/FindModeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/test/GetMinimumDifferenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/test/SortedArrayToBSTTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/algorithm/CountNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/algorithm/CountNodes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +51,7 @@
     &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/spring-boot-study&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FindBottomLeftValueTest">
+  <component name="RunManager" selected="Application.SortedArrayToBSTTest">
     <configuration name="BinaryTreePathsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.test.BinaryTreePathsTest" />
       <module name="algorithmstudy" />
@@ -75,21 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindSubsequencesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtrack.test.FindSubsequencesTest" />
-      <module name="algorithmstudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backtrack.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LevelOrderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.test.LevelOrderTest" />
+    <configuration name="FindModeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.test.FindModeTest" />
       <module name="algorithmstudy" />
       <extension name="coverage">
         <pattern>
@@ -101,12 +91,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubsetsWithDupTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtrack.test.SubsetsWithDupTest" />
+    <configuration name="GetMinimumDifferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.test.GetMinimumDifferenceTest" />
       <module name="algorithmstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="backtrack.test.*" />
+          <option name="PATTERN" value="tree.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortedArrayToBSTTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.test.SortedArrayToBSTTest" />
+      <module name="algorithmstudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortedArrayToBSTTest" />
+        <item itemvalue="Application.FindModeTest" />
+        <item itemvalue="Application.GetMinimumDifferenceTest" />
         <item itemvalue="Application.FindBottomLeftValueTest" />
         <item itemvalue="Application.BinaryTreePathsTest" />
-        <item itemvalue="Application.FindSubsequencesTest" />
-        <item itemvalue="Application.LevelOrderTest" />
-        <item itemvalue="Application.SubsetsWithDupTest" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +148,8 @@
       <workItem from="1667094222027" duration="13221000" />
       <workItem from="1667145835750" duration="88000" />
       <workItem from="1667226868612" duration="6594000" />
-      <workItem from="1667442739929" duration="9862000" />
+      <workItem from="1667442739929" duration="10020000" />
+      <workItem from="1667566629792" duration="38179000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构算法学习">
       <created>1658144781737</created>
@@ -189,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666960489139</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="二叉树回溯过程 构建符合条件的二叉树">
+      <created>1667486350533</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667486350533</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +224,8 @@
     <MESSAGE value="回溯算法" />
     <MESSAGE value="栈和队列" />
     <MESSAGE value="二叉树、回溯、递归" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉树、回溯、递归" />
+    <MESSAGE value="二叉树回溯过程 构建符合条件的二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉树回溯过程 构建符合条件的二叉树" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -247,6 +259,11 @@
           <url>file://$PROJECT_DIR$/src/tree/algorithm/FindBottomLeftValue.java</url>
           <line>64</line>
           <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/test/SortedArrayToBSTTest.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="94" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
