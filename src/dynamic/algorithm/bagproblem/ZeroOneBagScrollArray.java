@@ -36,9 +36,11 @@ package dynamic.algorithm.bagproblem;
 
               那么问题又来了，为什么二维dp数组历的时候不用倒序呢？
               因为对于二维dp，dp[i][j]都是通过上一层即dp[i - 1][j]计算而来，本层的dp[i][j]并不会被【覆盖】！
+              倒序遍历的原因是，本质上还是一个对二维数组的遍历，并且右下角的值依赖上一层左上角的值，
+              因此需要保证左边的值仍然是上一层的，从右向左覆盖。
          5、问题:（1）为什么采用【二维】数组的时候【可以】调换 物品 和 背包容量 的遍历顺序
                 （2）为什么采用【一维】数组的时候【不可以】调换 物品 和 背包容量 的遍历顺序
-                （3）为什么一维数组 背包容量 要倒叙遍历，如果正确遍历会产生什么问题
+                （3）为什么一维数组 背包容量 要倒序遍历，如果正确遍历会产生什么问题
             解答这些问题的根本方法，就是手动模拟计算dp数组，发现会产生什么问题
             产生这些问题的根本原因：递推公式的推导方向 + 本层是否被上层覆盖
 
@@ -55,8 +57,9 @@ public class ZeroOneBagScrollArray {
         int[] dp = solution1(weight, value, bagWeight);
         System.out.println("背包最大价值为: " + dp[bagWeight]);
     }
+
     // 求解01背包问题
-    public static int[] solution1(int[] weight, int[] value, int bagWeight){
+    public static int[] solution1(int[] weight, int[] value, int bagWeight) {
         // 步骤1 ：初始化dp数组全为0
         int[] dp = new int[bagWeight + 1];
         // 定义物品i是否被选择
@@ -67,21 +70,35 @@ public class ZeroOneBagScrollArray {
         int j;
 
         // 迭代求解最大价值
-        for ( i = 0; i < weight.length; i++) {
-            for ( j = bagWeight; j >= weight[i] ; j--) {
-                dp[j] =Math.max(dp[j], dp[j - weight[i]] + value[i]) ;
-                if (dp[j] == dp[j - weight[i]] + value[i]){
+        for (i = 0; i < weight.length; i++) {
+            for (j = bagWeight; j >= weight[i]; j--) {
+                dp[j] = Math.max(dp[j], dp[j - weight[i]] + value[i]);
+                if (dp[j] == dp[j - weight[i]] + value[i]) {
                     xi[i] = 1;
                 }
             }
             travelArray(dp);
         }
-        travelArray(xi);
-        return dp;
+
+        // 首先倒叙遍历背包容量，就是为了保证一个物品只能被放进背包一次，符合01背包的概念
+        // 如果将 背包容量的遍历放到外层，那么背包只能保存放进一个物品的价值，没有办法求放进多个种类物品的总价值
+//        for (j = bagWeight; j >= 1; j--)
+//            for (i = 0; i < weight.length; i++) {
+//                if (j >= weight[i]) {
+//                    dp[j] = Math.max(dp[j], dp[j - weight[i]] + value[i]);
+//                    if (dp[j] == dp[j - weight[i]] + value[i]) {
+//                        xi[i] = 1;
+//                    }
+//                }else
+//                    continue;
+//                travelArray(dp);
+//            }
+//        travelArray(xi);
+         return dp;
     }
 
     // 遍历一维数组
-    public static void travelArray(int[] dp){
+    public static void travelArray(int[] dp) {
         for (int j = 0; j < dp.length; j++) {
             System.out.print(dp[j]);
         }
