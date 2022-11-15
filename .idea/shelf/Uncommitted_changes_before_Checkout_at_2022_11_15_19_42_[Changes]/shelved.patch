@@ -1,0 +1,360 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"81de70dd-e7c1-4833-a0c7-da45cc25e1f4\" name=\"Changes\" comment=\"二叉树回溯过程 构建符合条件的二叉树\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/tree/algorithm/DeleteNode.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/tree/algorithm/FindMode.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/tree/algorithm/GetMinimumDifference.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/tree/algorithm/InsertIntoBST.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/tree/algorithm/IsValidBST.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/tree/algorithm/LowestCommonAncestor.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/tree/algorithm/LowestCommonAncestorSort.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/tree/algorithm/MergeTrees.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/tree/algorithm/SortedArrayToBST.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/tree/algorithm/TrimBST.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/tree/test/FindModeTest.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/tree/test/GetMinimumDifferenceTest.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/tree/test/SortedArrayToBSTTest.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Kotlin Class\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2C7DHgIp92iG5JJz2A4NnZvay1O\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/spring-boot-study&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\" selected=\"Application.SortedArrayToBSTTest\">\r\n    <configuration name=\"BinaryTreePathsTest\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"tree.test.BinaryTreePathsTest\" />\r\n      <module name=\"algorithmstudy\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"tree.test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"FindBottomLeftValueTest\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"tree.test.FindBottomLeftValueTest\" />\r\n      <module name=\"algorithmstudy\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"tree.test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"FindModeTest\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"tree.test.FindModeTest\" />\r\n      <module name=\"algorithmstudy\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"tree.test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"GetMinimumDifferenceTest\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"tree.test.GetMinimumDifferenceTest\" />\r\n      <module name=\"algorithmstudy\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"tree.test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"SortedArrayToBSTTest\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"tree.test.SortedArrayToBSTTest\" />\r\n      <module name=\"algorithmstudy\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"tree.test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.SortedArrayToBSTTest\" />\r\n        <item itemvalue=\"Application.FindModeTest\" />\r\n        <item itemvalue=\"Application.GetMinimumDifferenceTest\" />\r\n        <item itemvalue=\"Application.FindBottomLeftValueTest\" />\r\n        <item itemvalue=\"Application.BinaryTreePathsTest\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"81de70dd-e7c1-4833-a0c7-da45cc25e1f4\" name=\"Changes\" comment=\"\" />\r\n      <created>1658144644302</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1658144644302</updated>\r\n      <workItem from=\"1658144645792\" duration=\"280000\" />\r\n      <workItem from=\"1658144935477\" duration=\"22000\" />\r\n      <workItem from=\"1662077926529\" duration=\"34000\" />\r\n      <workItem from=\"1664632638834\" duration=\"2477000\" />\r\n      <workItem from=\"1665367573167\" duration=\"676000\" />\r\n      <workItem from=\"1665369728587\" duration=\"72988000\" />\r\n      <workItem from=\"1665716444955\" duration=\"242000\" />\r\n      <workItem from=\"1665717187106\" duration=\"185716000\" />\r\n      <workItem from=\"1666789458197\" duration=\"35980000\" />\r\n      <workItem from=\"1667042942901\" duration=\"7863000\" />\r\n      <workItem from=\"1667094222027\" duration=\"13221000\" />\r\n      <workItem from=\"1667145835750\" duration=\"88000\" />\r\n      <workItem from=\"1667226868612\" duration=\"6594000\" />\r\n      <workItem from=\"1667442739929\" duration=\"10020000\" />\r\n      <workItem from=\"1667566629792\" duration=\"38179000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"数据结构算法学习\">\r\n      <created>1658144781737</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1658144781737</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"数组、单链表算法题\">\r\n      <created>1665668762330</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1665668762330</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"String算法\">\r\n      <created>1665884062348</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1665884062348</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"回溯算法\">\r\n      <created>1666182159629</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1666182159629</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"栈和队列\">\r\n      <created>1666685614809</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1666685614809</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"二叉树、回溯、递归\">\r\n      <created>1666960489139</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1666960489139</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"二叉树回溯过程 构建符合条件的二叉树\">\r\n      <created>1667486350533</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1667486350533</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"8\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"数据结构算法学习\" />\r\n    <MESSAGE value=\"数组、单链表算法题\" />\r\n    <MESSAGE value=\"String算法\" />\r\n    <MESSAGE value=\"回溯算法\" />\r\n    <MESSAGE value=\"栈和队列\" />\r\n    <MESSAGE value=\"二叉树、回溯、递归\" />\r\n    <MESSAGE value=\"二叉树回溯过程 构建符合条件的二叉树\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"二叉树回溯过程 构建符合条件的二叉树\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/listtable/test/GenerateMatrixTest.java</url>\r\n          <line>8</line>\r\n          <option name=\"timeStamp\" value=\"10\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/linkedtable/test/SwapPairsTest.java</url>\r\n          <line>14</line>\r\n          <option name=\"timeStamp\" value=\"22\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/string/algorithm/RepeatedSubstringPattern.java</url>\r\n          <line>68</line>\r\n          <option name=\"timeStamp\" value=\"67\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/backtrack/algorithm/CombinationSum.java</url>\r\n          <line>102</line>\r\n          <option name=\"timeStamp\" value=\"83\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/hashtable/algorithm/FourSum.java</url>\r\n          <line>65</line>\r\n          <option name=\"timeStamp\" value=\"90\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/tree/algorithm/FindBottomLeftValue.java</url>\r\n          <line>64</line>\r\n          <option name=\"timeStamp\" value=\"91\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/tree/test/SortedArrayToBSTTest.java</url>\r\n          <line>8</line>\r\n          <option name=\"timeStamp\" value=\"94\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -1,20 +1,11 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="二叉树回溯过程 构建符合条件的二叉树">
+-      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/DeleteNode.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/FindMode.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/GetMinimumDifference.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/InsertIntoBST.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/IsValidBST.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/LowestCommonAncestor.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/LowestCommonAncestorSort.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/MergeTrees.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/SortedArrayToBST.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/TrimBST.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/tree/test/FindModeTest.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/tree/test/GetMinimumDifferenceTest.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/tree/test/SortedArrayToBSTTest.java" afterDir="false" />
++    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="0-1背包">
++      <change afterPath="$PROJECT_DIR$/src/sort/insertsort/DirectInsertSort.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/sort/selectsort/SelectSort.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/sort/swapsort/BubbleSort.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/sort/swapsort/QuickSort.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -51,13 +42,13 @@
+     &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/spring-boot-study&quot;
+   }
+ }</component>
+-  <component name="RunManager" selected="Application.SortedArrayToBSTTest">
+-    <configuration name="BinaryTreePathsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="tree.test.BinaryTreePathsTest" />
++  <component name="RunManager" selected="Application.QuickSort">
++    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="sort.swapsort.BubbleSort" />
+       <module name="algorithmstudy" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="tree.test.*" />
++          <option name="PATTERN" value="sort.swapsort.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -65,12 +56,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="FindBottomLeftValueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="tree.test.FindBottomLeftValueTest" />
++    <configuration name="DirectInsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="sort.insertsort.DirectInsertSort" />
+       <module name="algorithmstudy" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="tree.test.*" />
++          <option name="PATTERN" value="sort.insertsort.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -78,12 +69,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="FindModeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="tree.test.FindModeTest" />
++    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="sort.swapsort.QuickSort" />
+       <module name="algorithmstudy" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="tree.test.*" />
++          <option name="PATTERN" value="sort.swapsort.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -91,12 +82,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="GetMinimumDifferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="tree.test.GetMinimumDifferenceTest" />
++    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="sort.selectsort.SelectSort" />
+       <module name="algorithmstudy" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="tree.test.*" />
++          <option name="PATTERN" value="sort.selectsort.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -119,11 +110,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.QuickSort" />
++        <item itemvalue="Application.SelectSort" />
++        <item itemvalue="Application.BubbleSort" />
++        <item itemvalue="Application.DirectInsertSort" />
+         <item itemvalue="Application.SortedArrayToBSTTest" />
+-        <item itemvalue="Application.FindModeTest" />
+-        <item itemvalue="Application.GetMinimumDifferenceTest" />
+-        <item itemvalue="Application.FindBottomLeftValueTest" />
+-        <item itemvalue="Application.BinaryTreePathsTest" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -150,6 +141,8 @@
+       <workItem from="1667226868612" duration="6594000" />
+       <workItem from="1667442739929" duration="10020000" />
+       <workItem from="1667566629792" duration="38179000" />
++      <workItem from="1668433380638" duration="7000" />
++      <workItem from="1668436834782" duration="11917000" />
+     </task>
+     <task id="LOCAL-00001" summary="数据结构算法学习">
+       <created>1658144781737</created>
+Index: src/sort/selectsort/SelectSort.java
+===================================================================
+diff --git a/src/sort/selectsort/SelectSort.java b/src/sort/selectsort/SelectSort.java
+new file mode 100644
+--- /dev/null	
++++ b/src/sort/selectsort/SelectSort.java	
+@@ -0,0 +1,64 @@
++package sort.selectsort;
++/*
++    选择排序升序
++ */
++public class SelectSort {
++    public static void main(String[] args) {
++        int[] nums = {49, 38, 65, 97, 76, 13, 27, 49};
++//        int[] nums1 = {1, 2, 3, 4, 5, 6, 7, 8};
++//        selectSort(nums1);
++        selectSort1(nums);
++    }
++
++    private static void selectSort(int[] nums) {
++        // 定义已排序序列尾指针
++        int rear = -1;
++        int temp;
++        // 定义每轮排序最小值 min 下标
++        int min ;
++        // 待排序序列中选取最小值
++        for (rear = -1; rear < nums.length - 1 ; rear++) {
++            min = rear + 1;
++            for (int i = rear + 1; i < nums.length; i++) {
++                if (nums[min] > nums[i]){
++                    min = i;
++                }
++            }
++            if (min != rear + 1){
++                temp = nums[rear + 1];
++                nums[rear + 1] = nums[min];
++                nums[min] = temp;
++            }
++            travelNums(nums);
++        }
++    }
++
++    private static void selectSort1(int[] nums) {
++        // 定义已排序序列尾指针
++        int temp;
++        // 定义每轮排序最小值 min 下标
++        int min ;
++        // 待排序序列中选取最小值
++        for (int i = 0; i <= nums.length - 2 ; i++) {
++            min = i;
++            for (int j = i; j <= nums.length - 1; j++) {
++                if (nums[min] > nums[j]){
++                    min = j;
++                }
++            }
++            if (min != i){
++                temp = nums[i];
++                nums[i] = nums[min];
++                nums[min] = temp;
++            }
++            travelNums(nums);
++        }
++    }
++
++    private static void travelNums(int[] nums){
++        for (int i = 0; i < nums.length; i++) {
++            System.out.print(nums[i] + " ");
++        }
++        System.out.println();
++    }
++}
+Index: src/sort/swapsort/BubbleSort.java
+===================================================================
+diff --git a/src/sort/swapsort/BubbleSort.java b/src/sort/swapsort/BubbleSort.java
+new file mode 100644
+--- /dev/null	
++++ b/src/sort/swapsort/BubbleSort.java	
+@@ -0,0 +1,89 @@
++package sort.swapsort;
++
++/*
++    nums = [49 38 65 97 76 13 27 49]
++    冒泡升序排列
++ */
++public class BubbleSort {
++    public static void main(String[] args) {
++        int[] nums = {49, 38, 65, 97, 76, 13, 27, 49};
++        //bubbleSort(nums);// 未优化，执行7轮
++        //bubbleSort1(nums);  // 优化后，执行5轮
++        bubbleSort2(nums);// 未优化，执行7轮
++    }
++
++    private static void bubbleSort(int[] nums) {
++        // 交换变量
++        int temp;
++        // 确认遍历趟数 nums.length - 1
++        for (int round = 0; round < nums.length - 1; round++) {
++            // 每一轮参与交换操作的元素范围
++            for (int i = 0; i < nums.length - 1 - round; i++) {
++                if (nums[i] > nums[i + 1]) {
++                    temp = nums[i + 1];
++                    nums[i + 1] = nums[i];
++                    nums[i] = temp;
++                }
++            }
++            travelNums(nums);
++        }
++    }
++
++    // 优化：如果遍历一趟的过程中，没有交换操作，则其他趟排序就不用做了
++    private static void bubbleSort1(int[] nums) {
++        // 交换变量
++        int temp;
++        // 标记交换一轮中是否发生变化
++        boolean flag;
++        // 确认遍历趟数 nums.length - 1
++        for (int round = 0; round < nums.length - 1; round++) {
++            flag = false;
++            // 每一轮参与交换操作的元素范围
++            for (int i = 0; i < nums.length - 1 - round; i++) {
++                if (nums[i] > nums[i + 1]) {
++                    temp = nums[i + 1];
++                    nums[i + 1] = nums[i];
++                    nums[i] = temp;
++
++                    flag = true;
++                }
++            }
++            travelNums(nums);
++            if (flag == false) {
++                System.out.println("轮次为 ：" + round);
++                return;
++            }
++        }
++    }
++
++    private static void bubbleSort2(int[] nums) {
++        // 交换变量
++        int temp;
++        // 标记交换一轮中是否发生变化
++        boolean flag;
++
++        // 已排序序列头指针范围 从 nums.length 到 1，因为 1 排好序了 0自然就排好了
++        for (int head = nums.length; head >= 1; head--) {
++            flag = false;
++            // 从待排序序列中执行交换操作，逐步选出最大值
++            for (int i = 0; i < head; i++) {
++                if ((i + 1) < nums.length && nums[i] > nums[i + 1]) {
++                    temp = nums[i + 1];
++                    nums[i + 1] = nums[i];
++                    nums[i] = temp;
++                    flag = true;
++                }
++            }
++            travelNums(nums);
++            if (flag == false)
++                return;
++        }
++    }
++
++    private static void travelNums(int[] nums) {
++        for (int i = 0; i < nums.length; i++) {
++            System.out.print(nums[i] + " ");
++        }
++        System.out.println();
++    }
++}
+Index: src/sort/swapsort/QuickSort.java
+===================================================================
+diff --git a/src/sort/swapsort/QuickSort.java b/src/sort/swapsort/QuickSort.java
+new file mode 100644
+--- /dev/null	
++++ b/src/sort/swapsort/QuickSort.java	
+@@ -0,0 +1,59 @@
++package sort.swapsort;
++/*
++    nums = [49 38 65 97 76 13 27 49]
++    快速升序排列
++ */
++public class QuickSort {
++    public static void main(String[] args) {
++        int[] nums = {49, 38, 65, 97, 76, 13, 27, 49};
++        // 左闭右闭区间
++        int left = 0;
++        int right = nums.length - 1;
++        quickSort(nums, left, right);
++    }
++
++    private static void quickSort(int[] nums, int left, int right) {
++        // 递归终止条件
++        if(left >= right){
++            return;
++        }
++        int i = left;
++        int j = right;
++        int temp = nums[i];
++        // 有效区间内进行分割
++        while (i < j){
++            // 右指针遍历
++            while (i < j && nums[j] >= temp)
++                j--;
++            // 保证退出循环条件是 nums[j] < temp
++            if (i < j){
++                nums[i] = nums[j];
++                // 移动左指针
++                i++;
++            }
++            // 左指针遍历
++            while (i < j && nums[i] <= temp)
++                i++;
++            // 保证退出循环条件是 nums[j] > temp
++            if (i < j){
++                nums[j] = nums[i];
++                // 移动左指针
++                j--;
++            }
++        }
++        // 此处 i 和 j 相遇
++        if (i == j)
++            nums[i] = temp;
++        travelNums(nums);
++        // 递归排序左区间，递归排序右区间
++        quickSort(nums, left, i - 1);
++        quickSort(nums, i + 1, right);
++    }
++
++    private static void travelNums(int[] nums) {
++        for (int i = 0; i < nums.length; i++) {
++            System.out.print(nums[i] + " ");
++        }
++        System.out.println();
++    }
++}
