@@ -5,6 +5,9 @@ package sort.selectsort;
 public class SelectSort {
     public static void main(String[] args) {
         int[] nums = {49, 38, 65, 97, 76, 13, 27, 49};
+        System.out.println(nums.toString());
+        char[] a = {'a','b'};
+        System.out.println(a);
 //        int[] nums1 = {1, 2, 3, 4, 5, 6, 7, 8};
 //        selectSort(nums1);
         selectSort1(nums);

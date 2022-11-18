@@ -20,24 +20,25 @@ public class QuickSort {
         int i = left;
         int j = right;
         int temp = nums[i];
-
-        // 右指针遍历
-        while (i < j && nums[j] >= temp)
-            j--;
-        // 保证退出循环条件是 nums[j] < temp
-        if (i < j){
-            nums[i] = nums[j];
-            // 移动左指针
-            i++;
-        }
-        // 左指针遍历
-        while (i < j && nums[i] <= temp)
-            i++;
-        // 保证退出循环条件是 nums[j] > temp
-        if (i < j){
-            nums[j] = nums[i];
-            // 移动左指针
-            j--;
+        while(i < j) {
+            // 右指针遍历
+            while (i < j && nums[j] >= temp)
+                j--;
+            // 保证退出循环条件是 nums[j] < temp
+            if (i < j) {
+                nums[i] = nums[j];
+                // 移动左指针
+                i++;
+            }
+            // 左指针遍历
+            while (i < j && nums[i] <= temp)
+                i++;
+            // 保证退出循环条件是 nums[j] > temp
+            if (i < j) {
+                nums[j] = nums[i];
+                // 移动左指针
+                j--;
+            }
         }
         // 此处 i 和 j 相遇
         if (i == j)
