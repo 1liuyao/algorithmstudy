@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="test 分支 排序">
-      <change afterPath="$PROJECT_DIR$/src/backtrack/test/SolveNQueensTest.java" afterDir="false" />
+    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="master 排序">
+      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/bagproblem/FindTargetSumWays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listtable/algorithm/MergeArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022_11_15_19_42_[Changes]1/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backtrack/algorithm/SolveNQueens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtrack/algorithm/SolveNQueens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backtrack/algorithm/testmaster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/selectsort/SelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/selectsort/SelectSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamic/algorithm/bagproblem/canPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic/algorithm/bagproblem/canPartition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamic/test/ClimbStairsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic/test/ClimbStairsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/swapsort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/swapsort/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +50,33 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.QuickSort">
+  <component name="RunManager" selected="Application.MergeArray">
+    <configuration name="ClimbStairsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamic.test.ClimbStairsTest" />
+      <module name="algorithmstudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dynamic.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="listtable.algorithm.MergeArray" />
+      <module name="algorithmstudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="listtable.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sort.swapsort.QuickSort" />
       <module name="algorithmstudy" />
@@ -88,39 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZeroOneBagScrollArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamic.algorithm.bagproblem.ZeroOneBagScrollArray" />
-      <module name="algorithmstudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dynamic.algorithm.bagproblem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="canPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamic.algorithm.bagproblem.canPartition" />
-      <module name="algorithmstudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dynamic.algorithm.bagproblem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeArray" />
+        <item itemvalue="Application.ClimbStairsTest" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.SolveNQueensTest" />
         <item itemvalue="Application.SelectSort" />
-        <item itemvalue="Application.canPartition" />
-        <item itemvalue="Application.ZeroOneBagScrollArray" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +155,12 @@
       <workItem from="1668417638915" duration="897000" />
       <workItem from="1668562866424" duration="81000" />
       <workItem from="1668567674166" duration="8000" />
-      <workItem from="1668607697202" duration="1379000" />
+      <workItem from="1668607697202" duration="2220000" />
+      <workItem from="1669631803448" duration="4991000" />
+      <workItem from="1669899765740" duration="3328000" />
+      <workItem from="1669971688732" duration="8075000" />
+      <workItem from="1670157573408" duration="747000" />
+      <workItem from="1671683972890" duration="5235000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构算法学习">
       <created>1658144781737</created>
@@ -218,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668513528222</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="master 排序">
+      <created>1668754064466</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668754064466</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +259,8 @@
     <MESSAGE value="二叉树回溯过程 构建符合条件的二叉树" />
     <MESSAGE value="二搜索树" />
     <MESSAGE value="test 分支 排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 分支 排序" />
+    <MESSAGE value="master 排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="master 排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
