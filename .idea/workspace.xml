@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="排序">
-      <change afterPath="$PROJECT_DIR$/src/stack/algorithm/StringSolve.java" afterDir="false" />
+    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="字符串练习">
+      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/bagproblem/LengthOfLIS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/bagproblem/OneZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic/test/LengthOfLISTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic/test/OneZeroTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,9 +48,22 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StringSolve">
+  <component name="RunManager" selected="Application.LengthOfLISTest">
     <configuration name="ClimbStairsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dynamic.test.ClimbStairsTest" />
+      <module name="algorithmstudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dynamic.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LengthOfLISTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamic.test.LengthOfLISTest" />
       <module name="algorithmstudy" />
       <extension name="coverage">
         <pattern>
@@ -72,25 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.swapsort.QuickSort" />
+    <configuration name="OneZeroTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamic.test.OneZeroTest" />
       <module name="algorithmstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.swapsort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolveNQueensTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtrack.test.SolveNQueensTest" />
-      <module name="algorithmstudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backtrack.test.*" />
+          <option name="PATTERN" value="dynamic.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LengthOfLISTest" />
+        <item itemvalue="Application.OneZeroTest" />
         <item itemvalue="Application.StringSolve" />
         <item itemvalue="Application.MergeArray" />
         <item itemvalue="Application.ClimbStairsTest" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.SolveNQueensTest" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +158,10 @@
       <workItem from="1669899765740" duration="3328000" />
       <workItem from="1669971688732" duration="8075000" />
       <workItem from="1670157573408" duration="747000" />
-      <workItem from="1671683972890" duration="11033000" />
+      <workItem from="1671683972890" duration="12240000" />
+      <workItem from="1671876971661" duration="168000" />
+      <workItem from="1671949780277" duration="779000" />
+      <workItem from="1672022581080" duration="14618000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构算法学习">
       <created>1658144781737</created>
@@ -234,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671718276149</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="字符串练习">
+      <created>1671765966200</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671765966200</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +276,8 @@
     <MESSAGE value="test 分支 排序" />
     <MESSAGE value="master 排序" />
     <MESSAGE value="排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="排序" />
+    <MESSAGE value="字符串练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="字符串练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -302,6 +316,11 @@
           <url>file://$PROJECT_DIR$/src/tree/test/SortedArrayToBSTTest.java</url>
           <line>8</line>
           <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dynamic/algorithm/bagproblem/OneZero.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="97" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
