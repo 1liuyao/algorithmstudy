@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="字符串练习">
-      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/bagproblem/LengthOfLIS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/bagproblem/OneZero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic/test/LengthOfLISTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic/test/OneZeroTest.java" afterDir="false" />
+    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="动态规划多维度背包 不连续递增子序列">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/bagproblem/FindLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/bagproblem/FindLengthOfLCIS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/bagproblem/LongestCommonSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic/test/FindLengthOfLCISTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,9 +49,9 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LengthOfLISTest">
-    <configuration name="ClimbStairsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamic.test.ClimbStairsTest" />
+  <component name="RunManager" selected="Application.FindLengthOfLCISTest">
+    <configuration name="FindLengthOfLCISTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamic.test.FindLengthOfLCISTest" />
       <module name="algorithmstudy" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindLengthOfLCISTest" />
         <item itemvalue="Application.LengthOfLISTest" />
         <item itemvalue="Application.OneZeroTest" />
         <item itemvalue="Application.StringSolve" />
         <item itemvalue="Application.MergeArray" />
-        <item itemvalue="Application.ClimbStairsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +162,11 @@
       <workItem from="1671683972890" duration="12240000" />
       <workItem from="1671876971661" duration="168000" />
       <workItem from="1671949780277" duration="779000" />
-      <workItem from="1672022581080" duration="14618000" />
+      <workItem from="1672022581080" duration="14855000" />
+      <workItem from="1672144955668" duration="8237000" />
+      <workItem from="1672229495097" duration="7503000" />
+      <workItem from="1672363876991" duration="796000" />
+      <workItem from="1672404199212" duration="2095000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构算法学习">
       <created>1658144781737</created>
@@ -247,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671765966200</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="动态规划多维度背包 不连续递增子序列">
+      <created>1672062693108</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1672062693108</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +289,8 @@
     <MESSAGE value="master 排序" />
     <MESSAGE value="排序" />
     <MESSAGE value="字符串练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="字符串练习" />
+    <MESSAGE value="动态规划多维度背包 不连续递增子序列" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划多维度背包 不连续递增子序列" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
