@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="动态规划多维度背包 不连续递增子序列">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/bagproblem/FindLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/bagproblem/FindLengthOfLCIS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/bagproblem/LongestCommonSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic/test/FindLengthOfLCISTest.java" afterDir="false" />
+    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="动态规划序列问题一维数组，二维数组">
+      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/fullbag/Change.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/fullbag/CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/fullbag/CombinationSum4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/fullbag/NumSquares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/fullbag/WordBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/rob/Rob2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/rob/rob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/sequence/IsSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/sequence/MaxSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/sequence/NumDistinct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic/test/CoinChangeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic/test/WordBreakTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamic/algorithm/bagproblem/FindLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic/algorithm/sequence/FindLength.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamic/algorithm/bagproblem/FindLengthOfLCIS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic/algorithm/sequence/FindLengthOfLCIS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamic/algorithm/bagproblem/LengthOfLIS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic/algorithm/sequence/LengthOfLIS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamic/algorithm/bagproblem/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic/algorithm/sequence/LongestCommonSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamic/test/FindLengthOfLCISTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic/test/FindLengthOfLCISTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamic/test/LengthOfLISTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic/test/LengthOfLISTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +62,20 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FindLengthOfLCISTest">
+  <component name="RunManager" selected="Application.WordBreakTest">
+    <configuration name="CoinChangeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamic.test.CoinChangeTest" />
+      <module name="algorithmstudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dynamic.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindLengthOfLCISTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dynamic.test.FindLengthOfLCISTest" />
       <module name="algorithmstudy" />
@@ -76,19 +102,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listtable.algorithm.MergeArray" />
-      <module name="algorithmstudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="listtable.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OneZeroTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dynamic.test.OneZeroTest" />
       <module name="algorithmstudy" />
@@ -102,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringSolve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.algorithm.StringSolve" />
+    <configuration name="WordBreakTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamic.test.WordBreakTest" />
       <module name="algorithmstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.algorithm.*" />
+          <option name="PATTERN" value="dynamic.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordBreakTest" />
+        <item itemvalue="Application.CoinChangeTest" />
         <item itemvalue="Application.FindLengthOfLCISTest" />
         <item itemvalue="Application.LengthOfLISTest" />
         <item itemvalue="Application.OneZeroTest" />
-        <item itemvalue="Application.StringSolve" />
-        <item itemvalue="Application.MergeArray" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +179,8 @@
       <workItem from="1672144955668" duration="8237000" />
       <workItem from="1672229495097" duration="7503000" />
       <workItem from="1672363876991" duration="796000" />
-      <workItem from="1672404199212" duration="2095000" />
+      <workItem from="1672404199212" duration="2550000" />
+      <workItem from="1672714004654" duration="41669000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构算法学习">
       <created>1658144781737</created>
@@ -259,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672062693108</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="动态规划序列问题一维数组，二维数组">
+      <created>1672406742315</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1672406742315</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +311,8 @@
     <MESSAGE value="排序" />
     <MESSAGE value="字符串练习" />
     <MESSAGE value="动态规划多维度背包 不连续递增子序列" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态规划多维度背包 不连续递增子序列" />
+    <MESSAGE value="动态规划序列问题一维数组，二维数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划序列问题一维数组，二维数组" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

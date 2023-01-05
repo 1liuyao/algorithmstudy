@@ -1,4 +1,4 @@
-package dynamic.algorithm.bagproblem;
+package dynamic.algorithm.sequence;
 
 import java.util.Arrays;
 

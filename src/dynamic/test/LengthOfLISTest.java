@@ -1,6 +1,6 @@
 package dynamic.test;
 
-import dynamic.algorithm.bagproblem.LengthOfLIS;
+import dynamic.algorithm.sequence.LengthOfLIS;
 
 public class LengthOfLISTest {
     public static void main(String[] args) {

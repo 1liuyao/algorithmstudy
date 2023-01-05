@@ -1,6 +1,6 @@
 package dynamic.test;
 
-import dynamic.algorithm.bagproblem.FindLengthOfLCIS;
+import dynamic.algorithm.sequence.FindLengthOfLCIS;
 
 public class FindLengthOfLCISTest {
     public static void main(String[] args) {
