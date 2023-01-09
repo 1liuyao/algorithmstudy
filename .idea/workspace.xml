@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="动态规划序列问题一维数组，二维数组">
-      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/fullbag/Change.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/fullbag/CoinChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/fullbag/CombinationSum4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/fullbag/NumSquares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/fullbag/WordBreak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/rob/Rob2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/rob/rob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/sequence/IsSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/sequence/MaxSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/sequence/NumDistinct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic/test/CoinChangeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic/test/WordBreakTest.java" afterDir="false" />
+    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="子序列问题 打家劫舍问题">
+      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/fullbag/MinDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/shares/MaxProfit1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/shares/MaxProfit2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/shares/MaxProfit3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/shares/MaxProfit4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/shares/MaxProfit5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/shares/MaxProfit6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic/algorithm/bagproblem/FindLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic/algorithm/sequence/FindLength.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic/algorithm/bagproblem/FindLengthOfLCIS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic/algorithm/sequence/FindLengthOfLCIS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic/algorithm/bagproblem/LengthOfLIS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic/algorithm/sequence/LengthOfLIS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic/algorithm/bagproblem/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic/algorithm/sequence/LongestCommonSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic/test/FindLengthOfLCISTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic/test/FindLengthOfLCISTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic/test/LengthOfLISTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic/test/LengthOfLISTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +169,9 @@
       <workItem from="1672229495097" duration="7503000" />
       <workItem from="1672363876991" duration="796000" />
       <workItem from="1672404199212" duration="2550000" />
-      <workItem from="1672714004654" duration="41669000" />
+      <workItem from="1672714004654" duration="41876000" />
+      <workItem from="1672986933525" duration="12140000" />
+      <workItem from="1673230134115" duration="9048000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构算法学习">
       <created>1658144781737</created>
@@ -280,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672406742315</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="子序列问题 打家劫舍问题">
+      <created>1672916664448</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1672916664448</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +310,8 @@
     <MESSAGE value="字符串练习" />
     <MESSAGE value="动态规划多维度背包 不连续递增子序列" />
     <MESSAGE value="动态规划序列问题一维数组，二维数组" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态规划序列问题一维数组，二维数组" />
+    <MESSAGE value="子序列问题 打家劫舍问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="子序列问题 打家劫舍问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
