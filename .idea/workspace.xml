@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="动态规划 股票系列">
-      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/rob/rob3.java" afterDir="false" />
+    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="动态规划 打家劫舍 树形 dp">
+      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/distance/MinDistance1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/palindrome/CountSubstrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/palindrome/LongestPalindromeSubseq.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamic/algorithm/fullbag/MinDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic/algorithm/distance/MinDistance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +168,7 @@
       <workItem from="1672404199212" duration="2550000" />
       <workItem from="1672714004654" duration="41876000" />
       <workItem from="1672986933525" duration="12140000" />
-      <workItem from="1673230134115" duration="13702000" />
+      <workItem from="1673230134115" duration="24876000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构算法学习">
       <created>1658144781737</created>
@@ -286,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673255990625</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="动态规划 打家劫舍 树形 dp">
+      <created>1673269480888</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1673269480888</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +330,8 @@
     <MESSAGE value="动态规划序列问题一维数组，二维数组" />
     <MESSAGE value="子序列问题 打家劫舍问题" />
     <MESSAGE value="动态规划 股票系列" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态规划 股票系列" />
+    <MESSAGE value="动态规划 打家劫舍 树形 dp" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划 打家劫舍 树形 dp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
