@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="动态规划 打家劫舍 树形 dp">
-      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/distance/MinDistance1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/palindrome/CountSubstrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic/algorithm/palindrome/LongestPalindromeSubseq.java" afterDir="false" />
+    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="动态规划 回文串">
+      <change afterPath="$PROJECT_DIR$/src/backtrack/algorithm/SolveSudoku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greed/algorithm/FindContentChildren.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic/algorithm/fullbag/MinDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic/algorithm/distance/MinDistance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +46,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.WordBreakTest">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="CoinChangeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dynamic.test.CoinChangeTest" />
       <module name="algorithmstudy" />
@@ -88,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneZeroTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamic.test.OneZeroTest" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtrack.test.Test" />
       <module name="algorithmstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dynamic.test.*" />
+          <option name="PATTERN" value="backtrack.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.WordBreakTest" />
         <item itemvalue="Application.CoinChangeTest" />
         <item itemvalue="Application.FindLengthOfLCISTest" />
         <item itemvalue="Application.LengthOfLISTest" />
-        <item itemvalue="Application.OneZeroTest" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +166,7 @@
       <workItem from="1672404199212" duration="2550000" />
       <workItem from="1672714004654" duration="41876000" />
       <workItem from="1672986933525" duration="12140000" />
-      <workItem from="1673230134115" duration="24876000" />
+      <workItem from="1673230134115" duration="45566000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构算法学习">
       <created>1658144781737</created>
@@ -296,7 +294,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673269480888</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="动态规划 回文串">
+      <created>1673322911485</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1673322911485</updated>
+    </task>
+    <task id="LOCAL-00020" summary="动态规划 回文串">
+      <created>1673322921558</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1673322921558</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +343,8 @@
     <MESSAGE value="子序列问题 打家劫舍问题" />
     <MESSAGE value="动态规划 股票系列" />
     <MESSAGE value="动态规划 打家劫舍 树形 dp" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态规划 打家劫舍 树形 dp" />
+    <MESSAGE value="动态规划 回文串" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划 回文串" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
