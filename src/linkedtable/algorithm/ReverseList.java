@@ -39,9 +39,14 @@ package linkedtable.algorithm;
 
  */
 public class ReverseList {
-    private class ListNode {
-        int val;
-        ListNode next;
+    public class ListNode {
+        public int val;
+        public ListNode next;
+
+        public ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
     }
 
     // 方案1：双指针法
@@ -85,5 +90,26 @@ public class ReverseList {
         ListNode temp = cur.next;
         cur.next = pre;
         return reverseList2(cur,temp);
+    }
+    public ListNode reverseList3(ListNode head) {
+        if(head == null)
+            return null;
+
+        ListNode pre = null;
+        ListNode cur = head;
+        // 若在这个位置初始化，cur进行 cur = temp;
+        // 发生变化后，由于 cur 指向最后一个元素，temp 已经为空，cur = temp; 后，cur为null空指针
+        // 所以temp = cur.next;报空指针异常，需要引入非空判断
+        ListNode temp = cur.next;
+
+        while(cur != null){
+            cur.next = pre;
+            pre = cur;
+            cur = temp;
+            if (cur != null)
+                temp = cur.next;
+        }
+
+        return pre;
     }
 }

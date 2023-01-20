@@ -1,7 +1,6 @@
 package hashtable.algorithm;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 /*
     【349 两个数组的交集】：给定两个数组 nums1 和 nums2 ，返回 它们的交集。
@@ -63,4 +62,6 @@ public class Intersection {
         }
         return result.stream().mapToInt(Integer::intValue).toArray();
     }
+
+
 }

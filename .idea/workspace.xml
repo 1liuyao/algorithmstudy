@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="贪心策略：分发饼干">
-      <change afterPath="$PROJECT_DIR$/src/greed/algorithm/WiggleMaxLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greed/test/WiggleMaxLengthTest.java" afterDir="false" />
+    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="贪心策略：摆动序列">
+      <change afterPath="$PROJECT_DIR$/src/hashtable/algorithm/CanConstruct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashtable/algorithm/IsHappy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashtable/test/CanConstructTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashtable/test/IsHappyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedtable/algorithm/GetIntersectionNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedtable/test/ReverseListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/algorithm/ReplaceSpace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamic/algorithm/sequence/MaxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic/algorithm/sequence/MaxSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hashtable/algorithm/FourSumCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashtable/algorithm/FourSumCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hashtable/algorithm/Intersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashtable/algorithm/Intersection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hashtable/algorithm/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashtable/algorithm/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hashtable/test/ThreeSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashtable/test/ThreeSumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedtable/algorithm/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedtable/algorithm/ReverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedtable/algorithm/SwapPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedtable/algorithm/SwapPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/algorithm/ReverseStr2k.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/algorithm/ReverseStr2k.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/test/ReverseStr2kTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/test/ReverseStr2kTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +60,13 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.WiggleMaxLengthTest">
-    <configuration name="CoinChangeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamic.test.CoinChangeTest" />
+  <component name="RunManager" selected="Application.ReplaceSpace">
+    <configuration name="CanConstructTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashtable.test.CanConstructTest" />
       <module name="algorithmstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dynamic.test.*" />
+          <option name="PATTERN" value="hashtable.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindLengthOfLCISTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamic.test.FindLengthOfLCISTest" />
+    <configuration name="IsHappyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashtable.test.IsHappyTest" />
       <module name="algorithmstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dynamic.test.*" />
+          <option name="PATTERN" value="hashtable.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtrack.test.Test" />
+    <configuration name="ReplaceSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.algorithm.ReplaceSpace" />
       <module name="algorithmstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="backtrack.test.*" />
+          <option name="PATTERN" value="string.algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WiggleMaxLengthTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greed.test.WiggleMaxLengthTest" />
+    <configuration name="ReverseStr2kTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.test.ReverseStr2kTest" />
       <module name="algorithmstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greed.test.*" />
+          <option name="PATTERN" value="string.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordBreakTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamic.test.WordBreakTest" />
+    <configuration name="ThreeSumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashtable.test.ThreeSumTest" />
       <module name="algorithmstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dynamic.test.*" />
+          <option name="PATTERN" value="hashtable.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WiggleMaxLengthTest" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.WordBreakTest" />
-        <item itemvalue="Application.CoinChangeTest" />
-        <item itemvalue="Application.FindLengthOfLCISTest" />
+        <item itemvalue="Application.ReplaceSpace" />
+        <item itemvalue="Application.ReverseStr2kTest" />
+        <item itemvalue="Application.ThreeSumTest" />
+        <item itemvalue="Application.CanConstructTest" />
+        <item itemvalue="Application.IsHappyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +180,7 @@
       <workItem from="1672404199212" duration="2550000" />
       <workItem from="1672714004654" duration="41876000" />
       <workItem from="1672986933525" duration="12140000" />
-      <workItem from="1673230134115" duration="64585000" />
+      <workItem from="1673230134115" duration="114638000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构算法学习">
       <created>1658144781737</created>
@@ -315,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673446046451</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="贪心策略：摆动序列">
+      <created>1673699672366</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1673699672366</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +373,8 @@
     <MESSAGE value="动态规划 打家劫舍 树形 dp" />
     <MESSAGE value="动态规划 回文串" />
     <MESSAGE value="贪心策略：分发饼干" />
-    <option name="LAST_COMMIT_MESSAGE" value="贪心策略：分发饼干" />
+    <MESSAGE value="贪心策略：摆动序列" />
+    <option name="LAST_COMMIT_MESSAGE" value="贪心策略：摆动序列" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -363,24 +385,9 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/linkedtable/test/SwapPairsTest.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/string/algorithm/RepeatedSubstringPattern.java</url>
           <line>68</line>
           <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/backtrack/algorithm/CombinationSum.java</url>
-          <line>102</line>
-          <option name="timeStamp" value="83" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/hashtable/algorithm/FourSum.java</url>
-          <line>65</line>
-          <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/tree/algorithm/FindBottomLeftValue.java</url>
@@ -396,6 +403,11 @@
           <url>file://$PROJECT_DIR$/src/dynamic/algorithm/bagproblem/OneZero.java</url>
           <line>47</line>
           <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/algorithm/ReplaceSpace.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="124" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

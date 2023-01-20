@@ -2,6 +2,7 @@ package hashtable.algorithm;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 
 /*
@@ -107,4 +108,68 @@ public class ThreeSum {
         }
         return result;
     }
+
+    // 回溯法无法去重
+    // 输出 [[-1,0,1],[-1,2,-1],[0,1,-1]]
+    // 预期结果 [[-1,-1,2],[-1,0,1]]
+    LinkedList<Integer> path = new LinkedList<>();
+    List<List<Integer>> result = new ArrayList<>();
+    boolean[] used;
+    public List<List<Integer>> threeSum1(int[] nums) {
+        int k = 3;
+        int target = 0;
+        int index = 0;
+        used = new boolean[nums.length];
+        backTracking(nums, k, index, target);
+        return result;
+    }
+    public void backTracking(int[] nums, int k, int index, int target){
+        if(path.size() == k && path.stream().mapToInt(Integer::intValue).sum() == target){
+            result.add(new LinkedList<>(path));
+            return;
+        }
+        for (int i = index; i <= nums.length - k + 1; i++) {
+            if(i > 0 && nums[i] == nums[i - 1] && used[i - 1] == false)
+                continue;
+            path.offerLast(nums[i]);
+            used[i] = true;
+            backTracking(nums, k, i + 1,target);
+            path.removeLast();
+            used[i] = false;
+        }
+    }
+
+    // 回溯去重版本存在超时问题
+    //nums =
+    //[34,55,79,28,46,33,2,48,31,-3,84,71,52,-3,93,15,21,-43,57,-6,86,56,94,74,83,-14,28,-66,46,-49,62,-11,43,65,77,12,47,61,26,1,13,29,55,-82,76,26,15,-29,36,-29,10,-70,69,17,49]
+    // 超时
+
+//    LinkedList<Integer> path = new LinkedList<>();
+//    List<List<Integer>> result = new ArrayList<>();
+//    boolean[] used;
+//    public List<List<Integer>> threeSum(int[] nums) {
+//        int k = 3;
+//        int target = 0;
+//        int index = 0;
+//        Arrays.sort(nums);
+//        used = new boolean[nums.length];
+//        backTracking(nums, k, index, target);
+//        return result;
+//    }
+//    public void backTracking(int[] nums, int k, int index, int target){
+//        if(path.size() == k && path.stream().mapToInt(Integer::intValue).sum() == target){
+//            result.add(new LinkedList<>(path));
+//            return;
+//        }
+//        for (int i = index; i < nums.length; i++) {
+//            if(i > 0 && nums[i] == nums[i - 1] && used[i - 1] == false)
+//                continue;
+//            path.offerLast(nums[i]);
+//            used[i] = true;
+//            backTracking(nums, k, i + 1,target);
+//            path.removeLast();
+//            used[i] = false;
+//        }
+//    }
+
 }

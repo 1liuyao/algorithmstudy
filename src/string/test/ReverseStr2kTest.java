@@ -7,7 +7,7 @@ public class ReverseStr2kTest {
         String s = "abcdefg";
         int k = 2;
         ReverseStr2k reverseStr2k = new ReverseStr2k();
-        String s1 = reverseStr2k.reverseStr(s, 2);
+        String s1 = reverseStr2k.reverseStr1(s, 2);
         System.out.println(s1);
     }
 }

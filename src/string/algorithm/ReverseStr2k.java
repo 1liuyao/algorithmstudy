@@ -40,4 +40,28 @@ public class ReverseStr2k {
         }
         return stringBuilder.toString();
     }
+
+    public String reverseStr1(String s, int k) {
+        for(int i = 0; i < s.length(); i = i + 2*k){
+            if(i + k <= s.length()){
+                s = reverse(s, i, i + k - 1);
+            }else{
+                s = reverse(s, i, s.length() - 1);
+            }
+        }
+        return s;
+    }
+
+    public String reverse(String s, int start, int end){
+        char[] ss = s.toCharArray();
+        while(start < end){
+            char temp = ss[start];
+            ss[start] = ss[end];
+            ss[end] = temp;
+
+            start++;
+            end--;
+        }
+        return String.valueOf(ss);
+    }
 }

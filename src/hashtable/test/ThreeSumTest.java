@@ -15,5 +15,20 @@ public class ThreeSumTest {
             }
             System.out.println("-----------");
         }
+        Object[] objects = lists.toArray();
+        StringBuilder s = new StringBuilder();
+        for (int i = 0; i < objects.length; i++) {
+            if (i == 0)
+                s.append("[");
+            s.append(objects[i]);
+            if (i != objects.length - 1) {
+                s.append(",");
+            }else {
+                s.append("]");
+            }
+        }
+        System.out.println(s.toString());
+
+        lists.stream().forEach(System.out::println);
     }
 }
