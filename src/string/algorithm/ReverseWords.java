@@ -1,7 +1,5 @@
 package string.algorithm;
 
-import java.util.Arrays;
-
 /*
     【151 反转字符串中的单词】给你一个字符串 s ，请你反转字符串中 单词 的顺序。
         单词 是由非空格字符组成的字符串。s 中使用至少一个空格将字符串中的 单词 分隔开。
@@ -37,20 +35,20 @@ public class ReverseWords {
         StringBuilder reverse = stringBuilder.reverse();
         // 步骤3：对每个单词进行反转
         int start = 0;
-        int end ;
+        int end;
         String word;
-        for (end = 0; end < s1.length(); end++){
+        for (end = 0; end < s1.length(); end++) {
             // 如果走到数组尾部，那么截取最后一个单词
             if (stringBuilder.charAt(end) == ' ') {
                 String substring = stringBuilder.substring(start, end);
                 StringBuilder reverse1 = new StringBuilder(substring).reverse();
-                stringBuilder.replace(start,end, reverse1.toString());
+                stringBuilder.replace(start, end, reverse1.toString());
                 start = end + 1;
             }
-            if (end == s1.length()-1){
+            if (end == s1.length() - 1) {
                 String substring = stringBuilder.substring(start, s1.length());
                 StringBuilder reverse1 = new StringBuilder(substring).reverse();
-                stringBuilder.replace(start,s1.length(), reverse1.toString());
+                stringBuilder.replace(start, s1.length(), reverse1.toString());
             }
         }
         return stringBuilder.toString();
@@ -93,12 +91,65 @@ public class ReverseWords {
                 }
                 // 如果是第一个单词那fast和slow同时移动走完一个单词
                 // 注意一定把长度判断写在前面，否则能fast已经走到length，先判断chars[fast]就会抛出数组越界异常
-                while (fast < s.length() && chars[fast] != ' ' ) {
+                while (fast < s.length() && chars[fast] != ' ') {
                     chars[slow++] = chars[fast++];
                 }
             }
         }
 
-        return new String(chars).substring(0,slow);
+        return new String(chars).substring(0, slow);
+    }
+
+    // 二刷
+    public String reverseWords1(String s) {
+        s = trimSpace1(s);
+        s = reverse(s, 0, s.length() - 1);
+        int start = 0;
+        int end = 0;
+
+        char[] chars = s.toCharArray();
+        for (int i = 0; i < s.length(); i++) {
+            if (chars[i] == ' ') {
+                end = i - 1;
+                s = reverse(s, start, end);
+                start = i + 1;
+            }
+            if (i == s.length() - 1) {
+                s = reverse(s, start, s.length() - 1);
+            }
+        }
+        return s;
+    }
+
+    // 使用快慢指针的思想删除字符串中的元素
+    private String trimSpace1(String s) {
+        char[] chars = s.toCharArray();
+        int slow = 0;
+        for (int fast = 0; fast < s.length(); fast++) {
+            // 考虑什么样的元素应该放在 slow 中
+            if (chars[fast] != ' ') {
+                // 如果不是第一个单词
+                if (slow != 0) {
+                    chars[slow++] = ' ';
+                }
+                // 遍历一整个单词
+                while (fast < s.length() && chars[fast] != ' ') {
+                    chars[slow++] = chars[fast++];
+                }
+            }
+        }
+        return String.valueOf(chars, 0,slow);
+    }
+
+    private String reverse(String s, int start, int end) {
+        char[] chars = s.toCharArray();
+        while (start < end) {
+            char temp = chars[start];
+            chars[start] = chars[end];
+            chars[end] = temp;
+            start++;
+            end--;
+        }
+        return String.valueOf(chars);
     }
 }

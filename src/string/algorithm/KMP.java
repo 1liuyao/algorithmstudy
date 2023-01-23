@@ -1,4 +1,5 @@
 package string.algorithm;
+
 /*
     【28 找出字符串中第一个匹配项的下标】给你两个字符串 haystack 和 needle ，
                                    请你在 haystack 字符串中找出 needle 字符串的第一个匹配项的下标（下标从 0 开始）。
@@ -41,17 +42,17 @@ public class KMP {
         int j = 0;
         // 存储每一次主串开始和模式串匹配时，记录i的位置，如果匹配成功，k的位置就是匹配成功的起始位置
         int k = i;
-        while (i < haystack.length() && j < needle.length()){
-            if(haystack.charAt(i) == needle.charAt(j)){
+        while (i < haystack.length() && j < needle.length()) {
+            if (haystack.charAt(i) == needle.charAt(j)) {
                 i++;
                 j++;
-            }else {
+            } else {
                 i = ++k;
                 j = 0;
             }
         }
         // 只要模式串能成功遍历完，那就说明匹配上了
-        if(j == needle.length())
+        if (j == needle.length())
             return k;
         else
             return -1;
@@ -64,14 +65,14 @@ public class KMP {
         // int k = i;
         // 步骤1：初始化next数组
         int[] next = createNextArray(needle);
-        while (i < haystack.length() && j < needle.length()){
-            if(haystack.charAt(i) == needle.charAt(j)){
+        while (i < haystack.length() && j < needle.length()) {
+            if (haystack.charAt(i) == needle.charAt(j)) {
                 i++;
                 j++;
-            }else if(haystack.charAt(i) != needle.charAt(j) && j > 0){
+            } else if (haystack.charAt(i) != needle.charAt(j) && j > 0) {
                 // 相对于暴力解法，模式串指针，只需要跳转到next[j]，不需要从j = 0开始，既然主串到i没有匹配成功，那么直接继续向前
                 // j >0 此条件是为了防止数组越界,同时如果退到0点就到头了
-                j = next[j-1];
+                j = next[j - 1];
 
                 // 如果j已经无路可退，那主串需要移动，不然就死循环了
             } else if (haystack.charAt(i) != needle.charAt(j) && j == 0) {
@@ -79,7 +80,7 @@ public class KMP {
             }
             // 只要模式串能成功遍历完，那就说明匹配上了
         }
-        if(j == needle.length())
+        if (j == needle.length())
             return i - needle.length();
         else
             return -1;
@@ -120,6 +121,70 @@ public class KMP {
 
             // 如果没有匹配上，同时 j 回退到0位置，那么就next[i] = j，此时j为 0
             // 如果匹配上了，j就表示和i匹配时，的最大前后缀长度
+            next[i] = j;
+        }
+        return next;
+    }
+
+    public int strStr2(String haystack, String needle) {
+        int i = 0;
+        int j = 0;
+        int[] next = getNext(needle);
+        while (i < haystack.length() && j < needle.length()) {
+            if (haystack.charAt(i) == needle.charAt(j)) {
+                i++;
+                j++;
+            } else if (haystack.charAt(i) != needle.charAt(j) && j > 0) {
+                j = next[j - 1];
+            } else if (haystack.charAt(i) != needle.charAt(j) && j == 0) {
+                i++;
+            }
+        }
+        if (j == needle.length())
+            return i - j;
+        return -1;
+    }
+
+    private int[] getNext(String s) {
+        int[] next = new int[s.length()];
+        int j = 0;
+        for (int i = 1; i < s.length(); i++) {
+            while (s.charAt(i) != s.charAt(j) && j > 0) {
+                j = next[j - 1];
+            }
+            if (s.charAt(i) == s.charAt(j))
+                j++;
+            next[i] = j;
+        }
+        return next;
+    }
+
+    public int strStr3(String haystack, String needle) {
+        int j = 0;
+        int[] next = getNext3(needle);
+        for (int i = 0; i < haystack.length(); i++) {
+            while(j>0 && haystack.charAt(i) != needle.charAt(j)){
+                j = next[j - 1];
+            }
+            if(haystack.charAt(i) == needle.charAt(j)){
+                j++;
+            }
+            if(j == needle.length()){
+                return (i-needle.length()+1);
+            }
+        }
+        return -1;
+    }
+
+    private int[] getNext3(String s) {
+        int[] next = new int[s.length()];
+        int j = 0;
+        for (int i = 1; i < s.length(); i++) {
+            while (s.charAt(i) != s.charAt(j) && j > 0) {
+                j = next[j - 1];
+            }
+            if (s.charAt(i) == s.charAt(j))
+                j++;
             next[i] = j;
         }
         return next;

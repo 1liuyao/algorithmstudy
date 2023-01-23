@@ -96,4 +96,5 @@ public class RepeatedSubstringPattern {
         }
         return next;
     }
+
 }
