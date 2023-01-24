@@ -41,7 +41,7 @@ public class IsValid {
                 stack.push(']');
             } else if (s.charAt(i) == '(') {
                 stack.push(')');
-            }else{// 遇到右括号，无效情况处理
+            } else {// 遇到右括号，无效情况处理
                 // 右括号多时栈为空
                 if (stack.isEmpty())
                     return false;
@@ -55,6 +55,25 @@ public class IsValid {
             }
         }
         // 左括号多了，栈不为空
+        return stack.isEmpty();
+    }
+    // 二刷
+    public boolean isValid1(String s) {
+        Stack<Character> stack = new Stack<>();
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == '(')
+                stack.push(')');
+            else if (s.charAt(i) == '{')
+                stack.push('}');
+            else if (s.charAt(i) == '[')
+                stack.push(']');
+            else {
+                // 右括号多了或者不相等
+                if (stack.isEmpty() || s.charAt(i) != stack.pop())
+                    return false;
+            }
+        }
+        // 做括号多了
         return stack.isEmpty();
     }
 }

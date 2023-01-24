@@ -70,4 +70,30 @@ public class EvalRPN {
         else
             return opt2 / opt1;
     }
+    // 二刷
+    public int evalRPN1(String[] tokens) {
+        Stack<Integer> stack = new Stack<>();
+        for(int i = 0; i < tokens.length; i++){
+            if(tokens[i].equals("+") || tokens[i].equals("-") || tokens[i].equals("*") || tokens[i].equals("/")){
+                int opt1 = Integer.valueOf(stack.pop());
+                int opt2 = Integer.valueOf(stack.pop());
+                // 坑：题目描述：第二个出栈元素 是 被除数
+                int result = compute(opt2, opt1, tokens[i]);
+                System.out.println(result);
+                stack.push(result);
+            }else{
+                stack.push(Integer.valueOf(tokens[i]));
+            }
+        }
+        return stack.pop();
+    }
+    public int compute(int opt1, int opt2, String opt){
+        if("+".equals(opt))
+            return opt1 + opt2;
+        else if("-".equals(opt))
+            return opt1 - opt2;
+        else if("*".equals(opt))
+            return opt1 * opt2;
+        return opt1 / opt2;
+    }
 }

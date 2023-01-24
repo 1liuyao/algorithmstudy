@@ -45,4 +45,20 @@ public class RemoveDuplicates {
             return null;
         return stringBuilder.toString();
     }
+    // 二刷
+    public String removeDuplicates1(String s) {
+        StringBuilder result = new StringBuilder();
+        int pop = 0;
+
+        for(int i = 0; i < s.length(); i++){
+            if(result.length() == 0 || s.charAt(i) != result.charAt(pop - 1)){
+                result.append(s.charAt(i));
+                pop++;
+            }else{
+                result.deleteCharAt(pop - 1);
+                pop--;
+            }
+        }
+        return result.toString();
+    }
 }

@@ -1,6 +1,7 @@
 package stack.algorithm;
 
 import java.util.LinkedList;
+import java.util.Queue;
 
 /*
     【239 滑动窗口最大值】给你一个整数数组 nums，有一个大小为 k 的滑动窗口从数组的最左侧移动到数组的最右侧。
@@ -78,7 +79,7 @@ public class MaxSlidingWindow {
 
     // 单调队列的push操作
     public void push(Integer element){
-        // 入队时需要将比其小的元素都出队
+        // 入队时需要将比其小的元素都出队，注意：从后往前比
         while (!queueMax.isEmpty() && element > queueMax.peekLast()){
             queueMax.pollLast();
         }
@@ -98,4 +99,6 @@ public class MaxSlidingWindow {
     public Integer peek(){
         return queueMax.peekFirst();
     }
+
 }
+
