@@ -53,7 +53,7 @@ public class SumOfLeftLeaves {
 
         // 计算左叶子和
         int leftSum = sumOfLeftLeaves(root.left);
-        // 回溯到根节点判断是否为右孩子，是就加上左叶子的和
+        // 回溯到根节点判断是否为左孩子，是就加上左叶子的和
         if (root.left != null && root.left.left == null && root.left.right == null)
             leftSum = leftSum + root.left.val;
         int rightSum = sumOfLeftLeaves(root.right);

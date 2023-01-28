@@ -69,4 +69,5 @@ public class MinDepth {
             rootLength = Math.min(leftLength, rightLength) + 1;
         return rootLength;
     }
+
 }

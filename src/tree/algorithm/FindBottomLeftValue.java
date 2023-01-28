@@ -113,6 +113,7 @@ public class FindBottomLeftValue {
                 maxDepth = depth;
                 result = root.val;
             }
+            maxDepth = Integer.valueOf(maxDepth) > depth ? Integer.valueOf(maxDepth) : depth;
             return;
         }
         // 这部分根前序遍历求最大深度是一样的

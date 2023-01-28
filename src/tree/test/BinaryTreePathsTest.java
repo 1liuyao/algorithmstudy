@@ -1,6 +1,7 @@
 package tree.test;
 
 import tree.algorithm.BinaryTreePaths;
+import tree.algorithm.TreeTravelStack;
 
 import java.util.List;
 

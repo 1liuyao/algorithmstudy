@@ -1,9 +1,6 @@
 package tree.algorithm;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 /*
     【非递归前序遍历二叉树】：二叉树的递归遍历本质也是在调用系统栈

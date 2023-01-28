@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="贪心 跳跃游戏">
-      <change afterPath="$PROJECT_DIR$/src/stack/algorithm/MyStack.java" afterDir="false" />
+    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="二刷 栈和队列">
+      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/TreeTravelStackUnification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack/algorithm/EvalRPN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/algorithm/EvalRPN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack/algorithm/IsValid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/algorithm/IsValid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack/algorithm/MaxSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/algorithm/MaxSlidingWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack/algorithm/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/algorithm/RemoveDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack/algorithm/TopKFrequent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/algorithm/TopKFrequent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack/test/EvalRPNTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/test/EvalRPNTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack/test/MaxSlidingWindowTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/test/MaxSlidingWindowTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backtrack/algorithm/CombinationSum3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtrack/algorithm/CombinationSum3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/algorithm/FindBottomLeftValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/algorithm/FindBottomLeftValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/algorithm/IsSymmetric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/algorithm/IsSymmetric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/algorithm/LevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/algorithm/LevelOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/algorithm/MinDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/algorithm/MinDepth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/algorithm/PathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/algorithm/PathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/algorithm/SumOfLeftLeaves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/algorithm/SumOfLeftLeaves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/algorithm/TreeTravelStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/algorithm/TreeTravelStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/test/BinaryTreePathsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/test/BinaryTreePathsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +174,7 @@
       <workItem from="1672404199212" duration="2550000" />
       <workItem from="1672714004654" duration="41876000" />
       <workItem from="1672986933525" duration="12140000" />
-      <workItem from="1673230134115" duration="139561000" />
+      <workItem from="1673230134115" duration="171647000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构算法学习">
       <created>1658144781737</created>
@@ -342,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674480730533</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="二刷 栈和队列">
+      <created>1674560307767</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1674560307767</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,7 +391,8 @@
     <MESSAGE value="贪心策略：摆动序列" />
     <MESSAGE value="二刷字符串" />
     <MESSAGE value="贪心 跳跃游戏" />
-    <option name="LAST_COMMIT_MESSAGE" value="贪心 跳跃游戏" />
+    <MESSAGE value="二刷 栈和队列" />
+    <option name="LAST_COMMIT_MESSAGE" value="二刷 栈和队列" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -391,11 +401,6 @@
           <url>file://$PROJECT_DIR$/src/listtable/test/GenerateMatrixTest.java</url>
           <line>8</line>
           <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/tree/algorithm/FindBottomLeftValue.java</url>
-          <line>64</line>
-          <option name="timeStamp" value="91" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/tree/test/SortedArrayToBSTTest.java</url>

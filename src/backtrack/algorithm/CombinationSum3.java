@@ -110,4 +110,29 @@ public class CombinationSum3 {
             path.pollLast();
         }
     }
+    // 剪枝优化k 换一种写法
+    public void backTracking2(int k, int n, int sumPath, int startIndex) {
+        // 如果遍历到下一层，发现 不满足 元素个数 k 的要求
+        // 纵向剪枝优化：从根结点经过 k 步到达叶子结点的过程中，违背和条件，就应该停止遍历，这样就不用在for中限制k
+        if(path.size() > k)
+            return;
+        if (sumPath > n) {
+            return;
+        }
+        if (path.size() == k) {
+            if (sumPath == n) {
+                result.add(new ArrayList<>(path));
+                return;
+            }
+        }
+        // 横向剪枝：在满足结点集合个数达到 k 条件的前提下，缩短 i 最大可以遍历的位置
+        for (int i = startIndex; i <= 9; i++) {
+            path.offerLast(i);
+            sumPath = sumPath + i;
+            backTracking(k, n, sumPath, i + 1);
+            //步骤4 ：回溯撤销操作
+            sumPath =sumPath - i;
+            path.pollLast();
+        }
+    }
 }

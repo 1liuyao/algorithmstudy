@@ -65,6 +65,10 @@ public class LevelOrder {
         List<List<Integer>> result = new ArrayList<>();
         LinkedList<TreeNode> queue = new LinkedList<>();
         int size;
+
+        if (root == null)
+            return result;
+
         // 根节点入队
         queue.offerFirst(root);
         // 步骤2：遍历树中结点，执行入队出队操作
