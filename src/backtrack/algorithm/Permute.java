@@ -1,8 +1,7 @@
 package backtrack.algorithm;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Stream;
 /*
     【46 全排列】给定一个【不含重复】数字的数组 nums ，返回其 所有可能的全排列 。你可以 按任意顺序 返回答案。
 
@@ -30,6 +29,7 @@ public class Permute {
     public List<List<Integer>> permute(int[] nums) {
         if (nums.length == 0)
             return result;
+
         used = new boolean[nums.length];
         backTracking(nums);
         return result;

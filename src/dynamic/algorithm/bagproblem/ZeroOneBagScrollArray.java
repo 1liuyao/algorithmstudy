@@ -94,6 +94,9 @@ public class ZeroOneBagScrollArray {
 //                travelArray(dp);
 //            }
 //        travelArray(xi);
+
+        // 0 15 15 20 30   可见先遍历背包会导致：在背包容量下只能放入一个物品，并不能实现物品的组合放入
+        // 由于倒叙遍历当最大背包容量遍历完时，就已经获得了最终结果，并且随着接下来的遍历不再更新
          return dp;
     }
 

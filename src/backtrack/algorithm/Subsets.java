@@ -61,4 +61,30 @@ public class Subsets {
             path.pollLast();
         }
     }
+
+    // 不同位置收获不同结点
+    private void backTracking1(int[] nums, int startIndex) {
+        // 收获树中所有结点，包括空集
+        // result.add(new LinkedList(path));
+        // [[],[1],[1,2],[1,2,3],[1,3],[2],[2,3],[3]]
+
+        if (startIndex == nums.length){
+            // 收获树中 叶子 结点
+            // result.add(new LinkedList(path));
+            // [[1,2,3],[1,3],[2,3],[3]]
+            return;
+        }
+
+        // 收获树中所有 非叶子 结点，包括空集
+        // result.add(new LinkedList(path));
+        // [[],[1],[1,2],[2]]
+
+        // 步骤3：确定单层递归逻辑
+        for (int i = startIndex; i < nums.length; i++) {
+            path.offerLast(nums[i]);
+            result.add(new LinkedList<>(path));
+            backTracking(nums, i+1);
+            path.pollLast();
+        }
+    }
 }

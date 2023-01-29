@@ -49,7 +49,7 @@ import java.util.List;
 public class FindSubsequences {
     LinkedList<Integer> path = new LinkedList<>();
     List<List<Integer>> result = new ArrayList<>();
-    // 注意本题的去重，不使用used数组，因为used数组记录了被path收集的元素是否被使用过
+    // 注意本题的去重，不使用used数组，因为使用used数组去重，需要对数组进行排序，然而排序会导致原本 nums 数组 递增序列的改变
     // 记录了整棵树元素的使用情况
     // 但是本题只需要树层去重，记录本层元素如果被使用过，则剪枝
     public List<List<Integer>> findSubsequences(int[] nums) {

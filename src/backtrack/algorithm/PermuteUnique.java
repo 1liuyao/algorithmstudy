@@ -1,8 +1,7 @@
 package backtrack.algorithm;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
+
 /*
     【47 全排列】给定一个可包含重复数字的序列 nums ，按任意顺序 返回所有不重复的全排列。
 
@@ -26,6 +25,7 @@ public class PermuteUnique {
     boolean[] used;
     public List<List<Integer>> permuteUnique(int[] nums) {
         used = new boolean[nums.length];
+        Arrays.sort(nums);
         backTracking(nums);
         return result;
     }
@@ -41,6 +41,28 @@ public class PermuteUnique {
             // 需要去重的情况：【取过的元素不能取】 + 【树层需要去重】
             if (used[i] || (i > 0 && nums[i - 1] == nums[i] && !used[i - 1]))
                 continue;
+            path.offerFirst(nums[i]);
+            used[i] = true;
+            backTracking(nums);
+            used[i] = false;
+            path.pollFirst();
+        }
+    }
+
+    public void backTracking1(int[] nums) {
+        // 确定回溯终止条件
+        if (path.size() == nums.length){
+            result.add(new LinkedList<>(path));
+            return;
+        }
+        Set<Integer> set = new HashSet<>();
+        // 广度遍历，确定单层递归逻辑
+        for (int i = 0; i < nums.length; i++) {
+            // 需要去重的情况：【取过的元素不能取】 + 【树层需要去重】
+            if(used[i] || set.contains(nums[i]))
+                continue;
+
+            set.add(nums[i]);
             path.offerFirst(nums[i]);
             used[i] = true;
             backTracking(nums);

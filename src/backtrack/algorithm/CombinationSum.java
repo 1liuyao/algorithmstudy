@@ -97,6 +97,7 @@ public class CombinationSum {
     }
 
     private void backTracking1(int[] candidates, int target, int sum, int startIndex) {
+        // 纵向剪枝，当按照某一个分支进行纵向搜索的时候，发现已经不满足和条件，那么就没必要再继续往本分支的下层去搜索了
         if (sum > target){
             return;
         }
@@ -113,6 +114,7 @@ public class CombinationSum {
 //            path.removeLast();
 //        }
         for (int i = startIndex; i < candidates.length; i++) {
+            // 数组有序后，是一种本层横向剪枝，当横向遍历到某一结点和已经 大于 target，那么i 后的横向分支都没有必要遍历
             if (sum + candidates[i] > target)
                 break;
             path.offerLast(candidates[i]);

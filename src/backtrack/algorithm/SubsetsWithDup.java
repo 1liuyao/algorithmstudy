@@ -1,9 +1,7 @@
 package backtrack.algorithm;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
+
 /*
     【90 子集 II】给你一个整数数组 nums ，其中可能包含【重复元素】，请你返回该数组所有可能的子集（幂集）。
                 解集 不能 包含重复的子集。返回的解集中，子集可以按 任意顺序 排列。
@@ -79,6 +77,53 @@ public class SubsetsWithDup {
             // 回溯撤销操作
             used[i] = false;
             path.pollLast();
+        }
+    }
+
+    // 树层去重不使用 used, 使用 startIndex
+    public void backTracking1(int[] nums, int startIndex) {
+        // 收获结果
+        result.add(new LinkedList<>(path));
+        // 确定回溯函数终止条件
+        if(startIndex == nums.length)
+            return;
+        // 确定单层回溯逻辑
+        for (int i = startIndex; i < nums.length; i++) {
+            // 树层去重
+            if (i > startIndex && nums[i] == nums[i - 1] ) {
+                continue;
+            }
+
+            // 取元素
+            path.offerLast(nums[i]);
+
+            backTracking(nums, i + 1);
+
+            path.pollLast();
+        }
+    }
+
+    // Set去重
+    public void backTracking2(int[] nums, int startIndex) {
+        result.add(new LinkedList(path));
+
+        if(startIndex == nums.length)
+            return;
+
+        // 记录每一层的结点，每一层都有一个新的 Set 容器， 每进入一层，set 需要 清空，仅记录当前层的结点
+        Set<Integer> set = new HashSet<>();
+        for(int i = startIndex; i < nums.length; i++){
+            // 不适用 used 数组去重，使用 startIndex
+            if(set.contains(Integer.valueOf(nums[i])))
+                continue;
+            // 不需要回溯 ：因为每一层递归都重新定义个一个空的 set，
+            // 并不是像 path 一样，对于整棵树是唯一的，从下层到上层就需要回溯，否则遍历到本层时，如果不回溯，path 就 记录了整棵树的值
+            set.add(nums[i]);
+            path.offerLast(nums[i]);
+
+            backTracking(nums, i + 1);
+
+            path.pollLast();;
         }
     }
 }
