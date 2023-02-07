@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="二刷 回溯">
-      <change afterPath="$PROJECT_DIR$/src/greed/algorithm/CanCompleteCircuit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greed/algorithm/Candy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greed/algorithm/Jump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greed/algorithm/LargestSumAfterKNegations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greed/algorithm/LemonadeChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greed/test/CandyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/test/LargestSumAfterKNegationsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/algorithm/CreateTree.java" afterDir="false" />
+    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="贪心 分饼干 柠檬水找零">
+      <change afterPath="$PROJECT_DIR$/src/greed/algorithm/ReconstructQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic/algorithm/shares/MaxProfit5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic/algorithm/shares/MaxProfit5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +168,7 @@
       <workItem from="1673230134115" duration="208655000" />
       <workItem from="1675129127144" duration="21164000" />
       <workItem from="1675322922471" duration="9075000" />
-      <workItem from="1675480382295" duration="21144000" />
+      <workItem from="1675480382295" duration="26853000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构算法学习">
       <created>1658144781737</created>
@@ -368,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675006200641</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="贪心 分饼干 柠檬水找零">
+      <created>1675696553996</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1675696553997</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +384,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数据结构算法学习" />
     <MESSAGE value="数组、单链表算法题" />
     <MESSAGE value="String算法" />
     <MESSAGE value="回溯算法" />
@@ -411,7 +408,8 @@
     <MESSAGE value="二刷 栈和队列" />
     <MESSAGE value="二刷 树" />
     <MESSAGE value="二刷 回溯" />
-    <option name="LAST_COMMIT_MESSAGE" value="二刷 回溯" />
+    <MESSAGE value="贪心 分饼干 柠檬水找零" />
+    <option name="LAST_COMMIT_MESSAGE" value="贪心 分饼干 柠檬水找零" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
