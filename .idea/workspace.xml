@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="贪心 根据身高重建队列">
-      <change afterPath="$PROJECT_DIR$/src/greed/algorithm/FindMinArrowShots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greed/test/FindMinArrowShotsTest.java" afterDir="false" />
+    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="贪心 用最少数量的箭射爆气球">
+      <change afterPath="$PROJECT_DIR$/src/greed/algorithm/EraseOverlapIntervals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,7 +169,8 @@
       <workItem from="1675129127144" duration="21164000" />
       <workItem from="1675322922471" duration="9075000" />
       <workItem from="1675480382295" duration="27003000" />
-      <workItem from="1675868714591" duration="3607000" />
+      <workItem from="1675868714591" duration="4591000" />
+      <workItem from="1676033745485" duration="1696000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构算法学习">
       <created>1658144781737</created>
@@ -375,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675759098384</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="贪心 用最少数量的箭射爆气球">
+      <created>1675936974483</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1675936974483</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,7 +400,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="String算法" />
     <MESSAGE value="回溯算法" />
     <MESSAGE value="栈和队列" />
     <MESSAGE value="二叉树、回溯、递归" />
@@ -418,7 +424,8 @@
     <MESSAGE value="二刷 回溯" />
     <MESSAGE value="贪心 分饼干 柠檬水找零" />
     <MESSAGE value="贪心 根据身高重建队列" />
-    <option name="LAST_COMMIT_MESSAGE" value="贪心 根据身高重建队列" />
+    <MESSAGE value="贪心 用最少数量的箭射爆气球" />
+    <option name="LAST_COMMIT_MESSAGE" value="贪心 用最少数量的箭射爆气球" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -437,11 +444,6 @@
           <url>file://$PROJECT_DIR$/src/dynamic/algorithm/bagproblem/OneZero.java</url>
           <line>47</line>
           <option name="timeStamp" value="97" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/greed/algorithm/FindMinArrowShots.java</url>
-          <line>82</line>
-          <option name="timeStamp" value="98" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
