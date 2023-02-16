@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="贪心 求重叠子区间个数">
-      <change afterPath="$PROJECT_DIR$/src/bit/algorithm/AddBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bit/algorithm/GetSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bit/algorithm/HammingWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bit/test/AddBinaryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bit/test/HammingWeightTest.java" afterDir="false" />
+    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="位运算">
+      <change afterPath="$PROJECT_DIR$/src/greed/algorithm/PartitionLabels.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercise/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +46,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AddBinaryTest">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="AddBinaryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bit.test.AddBinaryTest" />
       <module name="algorithmstudy" />
@@ -63,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CandyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greed.test.CandyTest" />
+    <configuration name="CanConstructTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashtable.test.CanConstructTest" />
       <module name="algorithmstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greed.test.*" />
+          <option name="PATTERN" value="hashtable.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestSumAfterKNegationsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.test.LargestSumAfterKNegationsTest" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercise.Test" />
       <module name="algorithmstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.test.*" />
+          <option name="PATTERN" value="exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.CanConstructTest" />
         <item itemvalue="Application.AddBinaryTest" />
         <item itemvalue="Application.HammingWeightTest" />
         <item itemvalue="Application.FindMinArrowShotsTest" />
-        <item itemvalue="Application.CandyTest" />
-        <item itemvalue="Application.LargestSumAfterKNegationsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +171,11 @@
       <workItem from="1675322922471" duration="9075000" />
       <workItem from="1675480382295" duration="27003000" />
       <workItem from="1675868714591" duration="4591000" />
-      <workItem from="1676033745485" duration="11910000" />
+      <workItem from="1676033745485" duration="13080000" />
+      <workItem from="1676202810786" duration="5326000" />
+      <workItem from="1676423422235" duration="5288000" />
+      <workItem from="1676445118981" duration="218000" />
+      <workItem from="1676544434157" duration="3905000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构算法学习">
       <created>1658144781737</created>
@@ -393,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676036077735</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="位运算">
+      <created>1676100506020</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1676100506020</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,7 +419,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="栈和队列" />
     <MESSAGE value="二叉树、回溯、递归" />
     <MESSAGE value="二叉树回溯过程 构建符合条件的二叉树" />
     <MESSAGE value="二搜索树" />
@@ -436,7 +443,8 @@
     <MESSAGE value="贪心 根据身高重建队列" />
     <MESSAGE value="贪心 用最少数量的箭射爆气球" />
     <MESSAGE value="贪心 求重叠子区间个数" />
-    <option name="LAST_COMMIT_MESSAGE" value="贪心 求重叠子区间个数" />
+    <MESSAGE value="位运算" />
+    <option name="LAST_COMMIT_MESSAGE" value="位运算" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
