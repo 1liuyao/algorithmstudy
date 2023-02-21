@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="位运算">
-      <change afterPath="$PROJECT_DIR$/src/greed/algorithm/PartitionLabels.java" afterDir="false" />
+    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="贪心：划分字母区间">
+      <change afterPath="$PROJECT_DIR$/src/greed/algorithm/Merge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greed/algorithm/MinCameraCover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greed/algorithm/MonotoneIncreasingDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greed/test/MergeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/exercise/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack/algorithm/MaxSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/algorithm/MaxSlidingWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +50,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.MergeTest">
     <configuration name="AddBinaryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bit.test.AddBinaryTest" />
       <module name="algorithmstudy" />
@@ -73,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMinArrowShotsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greed.test.FindMinArrowShotsTest" />
+    <configuration name="MaxSlidingWindowTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.test.MaxSlidingWindowTest" />
       <module name="algorithmstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greed.test.*" />
+          <option name="PATTERN" value="stack.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HammingWeightTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bit.test.HammingWeightTest" />
+    <configuration name="MergeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greed.test.MergeTest" />
       <module name="algorithmstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bit.test.*" />
+          <option name="PATTERN" value="greed.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeTest" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.MaxSlidingWindowTest" />
         <item itemvalue="Application.CanConstructTest" />
         <item itemvalue="Application.AddBinaryTest" />
-        <item itemvalue="Application.HammingWeightTest" />
-        <item itemvalue="Application.FindMinArrowShotsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +179,9 @@
       <workItem from="1676202810786" duration="5326000" />
       <workItem from="1676423422235" duration="5288000" />
       <workItem from="1676445118981" duration="218000" />
-      <workItem from="1676544434157" duration="3905000" />
+      <workItem from="1676544434157" duration="17942000" />
+      <workItem from="1676682438709" duration="206000" />
+      <workItem from="1676808840345" duration="12930000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构算法学习">
       <created>1658144781737</created>
@@ -401,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676100506020</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="贪心：划分字母区间">
+      <created>1676559187081</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1676559187081</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,7 +432,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="二叉树、回溯、递归" />
     <MESSAGE value="二叉树回溯过程 构建符合条件的二叉树" />
     <MESSAGE value="二搜索树" />
     <MESSAGE value="test 分支 排序" />
@@ -444,7 +456,8 @@
     <MESSAGE value="贪心 用最少数量的箭射爆气球" />
     <MESSAGE value="贪心 求重叠子区间个数" />
     <MESSAGE value="位运算" />
-    <option name="LAST_COMMIT_MESSAGE" value="位运算" />
+    <MESSAGE value="贪心：划分字母区间" />
+    <option name="LAST_COMMIT_MESSAGE" value="贪心：划分字母区间" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
