@@ -1,67 +1,63 @@
 package exercise;
 /*
+给你一个 无重复元素 的整数数组 candidates 和一个目标整数 target ，找出 candidates 中可以使数字和为目标数 target 的 所有 不同组合 ，并以列表形式返回。你可以按 任意顺序 返回这些组合。
 
-1.	每个句子由多个单词组成，句子中的每个单词的长度都可能不一样，我们假设每个单词的长度Ni为该单词的重输入字符串为中文拼音号码串或者英文号码串，
-如果输入是中文拼音号码串则转成英文号码串，如果输入是英文号码串则转成中文号码串。
-2.	特殊情况是英文号码串会出现Double + 英文数字或者拼音数值。如果是英文则可以正常转换，如果是拼音则返回“ERROR”。
-输入
-输入为中文拼音数字串（用例保证中文数字串均为数字拼音），或者英文数字串（可能带Double）
-输出
-输出为输入的 中->英 或 英->中 的转换，如果遇到double+中拼音时输出“ERROR”
+candidates 中的 同一个 数字可以 无限制重复被选取 。如果至少一个数字的被选数量不同，则两种组合是不同的。
 
-样例
-输入样例 1
-YiWuSanJiuSi
+对于给定的输入，保证和为 target 的不同组合数少于 150 个。
 
-输出样例 1
-OneFiveThreeNineFour
+示例 1：
 
+输入：candidates = [2,3,6,7], target = 7
+输出：[[2,2,3],[7]]
+解释：
+2 和 3 可以形成一组候选，2 + 2 + 3 = 7 。注意 2 可以使用多次。
+7 也是一个候选， 7 = 7 。
+仅有这两种组合。
+示例 2：
+
+输入: candidates = [2,3,5], target = 8
+输出: [[2,2,2,2],[2,3,3],[3,5]]
+示例 3：
+
+输入: candidates = [2], target = 1
+输出: []
  */
 
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Test {
-    public static void main(String[] args) {
-        String input = "YiWuSanJiuSi";
-        StringBuilder output = new StringBuilder();
+    LinkedList<Integer> path = new LinkedList<>();
+    List<List<Integer>> result = new ArrayList<>();
 
-        List<String> list = splitPlus(input);
-
-        HashMap<String, String> hash = new HashMap<>();
-        hash.put("Yi", "One");
-        hash.put("Wu", "Five");
-        hash.put("San", "Three");
-        hash.put("Jiu", "Nine");
-        hash.put("Si", "Four");
-
-        for (int i = 0; i < list.size(); i++) {
-            String s = hash.get(list.get(i));
-            output.append(s);
-        }
-
-        System.out.println(output);
+    public List<List<Integer>> combinationSum(int[] candidates, int target) {
+        Arrays.sort(candidates);
+        backTraking(candidates, target, 0, 0);
+        return result;
     }
 
-    public static List<String> splitPlus(String s){
-        List<String> sb = new ArrayList<>();
-        int start = 0;
-        int end = 0;
-        // 按照大写截取字符串
-        for (int i = 1; i < s.length(); i++) {
-            if(s.charAt(i) >= 'A' && s.charAt(i) <= 'Z'){
-                end = i;
-                // 截取
-                String substring = s.substring(start, end);
-                sb.add(substring);
-                // 更新start
-                start = end;
-            }
-
+    private void backTraking(int[] candidates, int target, int startIndex, int sum) {
+        // 纵向剪枝
+        if (sum > target)
+            return;
+        if (sum == target){
+            result.add(new LinkedList<>(path));
+            return;
         }
-        // 尾部最后一个串
-        sb.add(s.substring(end, s.length()));
-        return sb;
+
+        for (int i = startIndex; i < candidates.length; i++) {
+            // 横向剪枝
+            if (sum + candidates[i] > target)
+                break;
+
+            sum = sum + candidates[i];
+            path.offerLast(candidates[i]);
+            backTraking(candidates, target, i, sum);
+            path.pollLast();
+            sum = sum - candidates[i];
+        }
     }
 }
