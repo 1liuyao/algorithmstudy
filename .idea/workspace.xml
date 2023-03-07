@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="贪心完结">
-      <change afterPath="$PROJECT_DIR$/src/stack/algorithm/DailyTemperatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/algorithm/NextGreaterElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/test/DailyTemperaturesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/test/NextGreaterElementTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/algorithm/Convert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/test/ConvertTest.java" afterDir="false" />
+    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="单调栈 + 字符串 N 字变换">
+      <change afterPath="$PROJECT_DIR$/src/stack/algorithm/NextGreaterElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/algorithm/Trap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/test/NextGreaterElementsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +44,11 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/spring-boot-study&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ConvertTest">
+  <component name="RunManager" selected="Application.NextGreaterElementsTest">
     <configuration name="ConvertTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.test.ConvertTest" />
       <module name="algorithmstudy" />
@@ -104,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercise.Test" />
+    <configuration name="NextGreaterElementsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.test.NextGreaterElementsTest" />
       <module name="algorithmstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercise.*" />
+          <option name="PATTERN" value="stack.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NextGreaterElementsTest" />
         <item itemvalue="Application.ConvertTest" />
         <item itemvalue="Application.NextGreaterElementTest" />
         <item itemvalue="Application.DailyTemperaturesTest" />
         <item itemvalue="Application.MergeTest" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +180,10 @@
       <workItem from="1676544434157" duration="17942000" />
       <workItem from="1676682438709" duration="206000" />
       <workItem from="1676808840345" duration="26413000" />
-      <workItem from="1677118560600" duration="13052000" />
+      <workItem from="1677118560600" duration="14491000" />
+      <workItem from="1677679303788" duration="148000" />
+      <workItem from="1677749023534" duration="5994000" />
+      <workItem from="1678188557114" duration="3621000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构算法学习">
       <created>1658144781737</created>
@@ -423,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676945962817</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="单调栈 + 字符串 N 字变换">
+      <created>1677210610259</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1677210610259</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,7 +448,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="二搜索树" />
     <MESSAGE value="test 分支 排序" />
     <MESSAGE value="master 排序" />
     <MESSAGE value="排序" />
@@ -466,7 +472,8 @@
     <MESSAGE value="位运算" />
     <MESSAGE value="贪心：划分字母区间" />
     <MESSAGE value="贪心完结" />
-    <option name="LAST_COMMIT_MESSAGE" value="贪心完结" />
+    <MESSAGE value="单调栈 + 字符串 N 字变换" />
+    <option name="LAST_COMMIT_MESSAGE" value="单调栈 + 字符串 N 字变换" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -487,9 +494,9 @@
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/string/algorithm/Convert.java</url>
-          <line>90</line>
-          <option name="timeStamp" value="109" />
+          <url>file://$PROJECT_DIR$/src/stack/algorithm/NextGreaterElements.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="98" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
