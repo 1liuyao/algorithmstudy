@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="单调栈 求矩形面积">
-      <change afterPath="$PROJECT_DIR$/src/extra/SmallerNumbersThanCurrent.java" afterDir="false" />
+    <list default="true" id="81de70dd-e7c1-4833-a0c7-da45cc25e1f4" name="Changes" comment="附加题  1365">
+      <change afterPath="$PROJECT_DIR$/src/extra/UniqueOccurrences.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +182,8 @@
       <workItem from="1677679303788" duration="148000" />
       <workItem from="1677749023534" duration="5994000" />
       <workItem from="1678188557114" duration="6803000" />
-      <workItem from="1678697411969" duration="2911000" />
+      <workItem from="1678697411969" duration="3612000" />
+      <workItem from="1679219431872" duration="1135000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构算法学习">
       <created>1658144781737</created>
@@ -443,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678260795582</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="附加题  1365">
+      <created>1678714834992</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1678714834992</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +469,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="master 排序" />
     <MESSAGE value="排序" />
     <MESSAGE value="字符串练习" />
     <MESSAGE value="动态规划多维度背包 不连续递增子序列" />
@@ -486,7 +493,8 @@
     <MESSAGE value="贪心完结" />
     <MESSAGE value="单调栈 + 字符串 N 字变换" />
     <MESSAGE value="单调栈 接雨水" />
-    <option name="LAST_COMMIT_MESSAGE" value="单调栈 接雨水" />
+    <MESSAGE value="附加题  1365" />
+    <option name="LAST_COMMIT_MESSAGE" value="附加题  1365" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
